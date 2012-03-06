@@ -9,11 +9,16 @@ body, html {
 	height: 100%;
 	width: 100%;
 	text-align: center;
+	
+	background-position: 50% 50%;
+	background-size: 110% 110%;
 }
 
 #page {
 	display: table-cell;
 	vertical-align: middle;
+	
+	background: #ffffff;
 }
 
 header {

@@ -20,6 +20,21 @@
 			 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 			 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 			})();
+			
+			$(document).mousemove(function(event) {
+				var el = $('#wrapper');
+				
+				var screenWidth = $(window).width();
+				var screenHeight = $(window).height();
+				
+				var xPos = -(event.pageX - (screenWidth / 2)) / screenWidth * 100;
+				var yPos = -(event.pageY - (screenHeight / 2)) / screenHeight * 100;
+				
+				el.css({
+					backgroundPosition: (50 - xPos) + '% ' +(50 - yPos) + '%'
+				});
+				
+			});
 		</script>
 	</head>
 	<body>
