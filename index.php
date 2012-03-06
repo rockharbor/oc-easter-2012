@@ -20,14 +20,16 @@
 			 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 			 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 			})();
-			
-			$(document).ready(function() {
-				$('#wrapper').jmpress();
-			})
 		</script>
 	</head>
 	<body>
 		<div id="wrapper">
+			<div id="page">
+				<header>
+					<h1>Easter 2012</h1>
+					<h2>Coming Soon</h2>
+				</header>
+			</div>
 		</div>
 	</body>
 </html>
