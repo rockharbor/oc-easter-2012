@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="css/styles.css" />
 		<script src="js/jquery-1.7.1.min.js"></script>
 		<script src="js/jmpress.min.js"></script>
+		<script src="js/oceaster.js"></script>
 		<script>
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-7415608-5']);
@@ -23,7 +24,8 @@
 			
 			$(document).ready(function() {
 				$('#wrapper').jmpress();
-			})
+				$.oceaster.init();
+			});
 		</script>
 	</head>
 	<body>
