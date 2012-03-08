@@ -12,23 +12,24 @@ body, html {
 	
 	background-position: 50% 50%;
 	background-size: 110% 110%;
+	background-image: url(/img/background.png);
 }
 
 #page {
 	display: table-cell;
 	vertical-align: middle;
-	
-	background: #ffffff;
 }
 
-header {
-	text-indent: -9999px;
+p {
+	font-family: UniversLTStd57Condensed, Lucida, Helvetica, Arial, sans-serif;
 }
 
-header h1 {
+.info {
+	padding-top: 10px;
+	display: block;
+	width: 100%;
+	clear: both;
 	
+	background: #fff;
 }
 
-header h2 {
-	
-}

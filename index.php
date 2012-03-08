@@ -6,6 +6,7 @@
 		<meta name="title" content="OC Easter" />
 		<meta name="description" content="An Easter celebration of Jesus and His freedom at the OC Fairgrounds in Costa Mesa, California." />
 		<meta name="keywords" content="oc, orange county, easter, fairgrounds, francis chan, rockharbor, oc easter, pacific amphitheatre, freedom, jesus" />
+		<link rel="stylesheet" href="css/fonts.css" />
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/styles.css" />
 		<script src="js/jquery-1.7.1.min.js"></script>
@@ -39,10 +40,28 @@
 	<body>
 		<div id="wrapper">
 			<div id="page">
-				<header>
-					<h1>Easter 2012</h1>
-					<h2>Coming Soon</h2>
-				</header>
+				<table style="width: 100%; height: 100%" cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<td colspan="3" style="background: #fff">&nbsp;</td>
+					</tr>
+					<tr>
+						<td style="background: #fff;width:40%"></td>
+						<td width="464" height="187" style="width:20%">
+							<img style="float: left;" src="/img/comingsoon.png" alt="Easter 2012 Coming Soon" />
+							<p class="info">
+								With Francis Chan<br />
+								Sunday, April 8<br />
+								9am & 11:15am
+							</p>
+						</td>
+						<td style="background: #fff;width:40%"">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3" style="background: #fff">&nbsp;</td>
+					</tr>
+				</table>
+				
 			</div>
 		</div>
 	</body>
