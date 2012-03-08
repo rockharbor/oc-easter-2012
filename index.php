@@ -30,6 +30,77 @@
 	</head>
 	<body>
 		<div id="wrapper">
+			<section class="step">
+				<p>What happens when things don&apos;t turn out as we hoped?</p>
+				<p>When the job we thought would bring us life instead brings anxiety?</p>
+				<p>When the relationship we expected to fulfill us instead brings fear?</p>
+				<p>When the future that once looked so clear instead brings rejection?</p>
+			</section>
+			<section class="step">
+				<p>Each disappointment robs our joy.</p>
+				<p>Until one day we turn around and realize...</p>
+			</section>
+			<section class="step">
+				<p>Life has become increasingly grim.</p>
+			</section>
+			<section class="step">
+				<p>Not knowing how to respond, we often fall into the trap of piling chains upon chains.</p>
+			</section>
+			<section class="step">
+				<p>But we only add to the gloom when we reach for things that could never set us free.</p>
+				<div id="chains">
+					<p class="step">Escapism</p>
+					<p class="step">Busyness</p>
+					<p class="step">Isolation</p>
+					<p class="step">Apathy</p>
+				</div>
+			</section>
+			<section class="step">
+				<p>Will we always live with the chains?</p>
+			</section>
+			<section class="step">
+				<p>Or can tomorrow&apos;s dawn really bring...</p>
+				<p>A different day?</p>
+				<p>A different us?</p>
+			</section>
+			<section class="step">
+				<p>Centuries ago, Jesus invaded this world.</p>
+				<div>
+					<p class="step">To restore hope.</p>
+					<p class="step">To renew life.</p>
+					<p class="step">So that we could know God.</p>
+				</div>
+			</section>
+			<section class="step">
+				<p>As we discover this Jesus, everything changes.</p>
+			</section>
+			<section class="step">
+				<p>We are free.</p>
+			</section>
+			<section class="step">
+				<p>Free from the chains that bound us.</p>
+			</section>
+			<section class="step">
+				<p>But more than that, free to grab hold of an entirely different life.</p>
+			</section>
+			<section class="step">
+				<p>How we view</p>
+				<div>
+					<p>Ourselves</p>
+					<p>Others</p>
+					<p>Our future</p>
+					<p>Our relationships</p>
+					<p>Our marriage</p>
+					<p>Our kids</p>
+					<p>Our hopes</p>
+					<p>Our dreams</p>
+					<p>Our purpose</p>
+				</div>
+				<p>differently.</p>
+			</section>
+			<section class="step">
+				<p>Everything is new.</p>
+			</section>
 		</div>
 	</body>
 </html>
