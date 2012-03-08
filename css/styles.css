@@ -18,6 +18,7 @@ body, html {
 #page {
 	display: table-cell;
 	vertical-align: middle;
+	height: 100%;
 }
 
 p {
