@@ -85,7 +85,7 @@
 				<p>A different us?</p>
 			</section>
 			<section class="step" data-z="3000" data-rotate-z="180" data-template="world">
-				<p>Centuries ago, Jesus invaded this world.</p>
+				<p>Centuries ago, Jesus came into this world.</p>
 				<p class="step">To restore hope.</p>
 				<p class="step">To renew life.</p>
 				<p class="step">So that we could know God.</p>
