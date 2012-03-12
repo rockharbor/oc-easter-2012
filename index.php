@@ -24,7 +24,11 @@
 			})();
 			
 			$(document).ready(function() {
-				$('#wrapper').jmpress();
+				$('#wrapper').jmpress({
+					mouse: {
+						clickSelects: false
+					}
+				});
 				$.oceaster.init();
 			});
 		</script>
