@@ -13,6 +13,7 @@
 		<script src="js/jquery-1.7.1.min.js"></script>
 		<script src="js/jmpress.all.min.js"></script>
 		<script src="js/oceaster.js"></script>
+		<script src="js/templates.js"></script>
 		<script>
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-7415608-5']);
