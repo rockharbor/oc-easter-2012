@@ -8,6 +8,7 @@
 		<meta name="keywords" content="oc, orange county, easter, fairgrounds, francis chan, rockharbor, oc easter, pacific amphitheatre, freedom, jesus" />
 		<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=yes" />
 		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/basic-animations.css" />
 		<link rel="stylesheet" href="css/styles.css" />
 		<script src="js/jquery-1.7.1.min.js"></script>
 		<script src="js/jmpress.min.js"></script>
