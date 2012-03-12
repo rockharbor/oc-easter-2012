@@ -9,6 +9,7 @@
 		<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=yes" />
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/basic-animations.css" />
+		<link rel="stylesheet" href="css/fonts.css" />
 		<link rel="stylesheet" href="css/styles.css" />
 		<script src="js/jquery-1.7.1.min.js"></script>
 		<script src="js/jmpress.all.min.js"></script>
