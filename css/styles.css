@@ -1,7 +1,36 @@
-body, html {
-	width: 100%;
+/*= Global Nav
+**************************************************/
+body > header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 9999;
 }
-#wrapper {
-	width: 100%;
-	margin: auto;
+
+/*= Global Step
+**************************************************/
+.step {
+	width: 500px;
+	height: 300px;
+	padding: 20px;
+	display: block;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.step,
+.nested-step {
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+
+.step:not(.active):not(.nested-active) {
+	
 }
