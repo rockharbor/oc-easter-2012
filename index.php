@@ -106,11 +106,10 @@
 				Because Jesus didn&apos;t come just to remove our chains.
 He came to replace them entirely.
 He came so that we could have life and have it to the full.
-
 			</section>
 			<section class="light step" data-x="3000" data-y="-4000" data-z="5000" data-enter-trigger="startCycle" data-exit-trigger="endCycle">
 				<p>How we view</p>
-				<div>
+				<div class="cycle">
 					<p>Ourselves</p>
 					<p>Others</p>
 					<p>Our future</p>

@@ -32,6 +32,36 @@
 		},
 		
 		/**
+		 * Cycles through words
+		 *
+		 * @param Element el The current step element
+		 * @param hash evt The event data
+		 * @return void
+		 */
+		startCycle: function(el, evt, child) {
+			var children = $(el).children('.cycle').children();
+			if (child === undefined || child == children.length) {
+				child = 0;
+			}
+			$(el).children('.cycle').delay(1000).animate({
+				scrollTop: $(children[child]).position().top
+			}, 200, function() {
+				if ($.oceaster.onStep(el)) {
+					$.oceaster.startCycle(el, evt, child+1);
+				}
+			});
+		},
+		
+		/**
+		 * Ends the cycle
+		 *
+		 * @return void
+		 */
+		endCycle: function(el, evt) {
+			$(el).children('.cycle').stop().animate({scrollTop: 0});
+		},
+		
+		/**
 		 * Triggers a function on the `$.oceaster` object, passing the element
 		 * and the event data as arguments
 		 *
@@ -58,6 +88,15 @@
 			if (window.console !== undefined) {
 				console.log('[oceaster] ', msg);
 			}
+		},
+		
+		/**
+		 * Checks if `el` is the current active step
+		 * 
+		 * @return boolean
+		 */
+		onStep: function(el) {
+			return $('#wrapper').jmpress('active').attr('id') == $(el).attr('id');
 		}
 		
 	}

@@ -63,3 +63,15 @@ body > header {
 .light.background {
 	background: #ffffff;
 }
+
+/*= Cycle words
+**************************************************/
+.cycle {
+	position: relative;
+	overflow: hidden;
+	height: 30px;
+}
+
+.cycle p:first-child {
+	top: 0;
+}
