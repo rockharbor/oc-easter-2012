@@ -21,6 +21,8 @@ body > header {
 	padding: 20px;
 	display: block;
 	
+	color: #ffffff;
+	
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
@@ -37,6 +39,27 @@ body > header {
 	transition: 1s;
 }
 
+.light.step {
+	color: #000000;
+}
+
 .step:not(.active):not(.nested-active) {
 	
+}
+
+/*= Background
+**************************************************/
+.background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.dark.background {
+	background: #000000;
+}
+
+.light.background {
+	background: #ffffff;
 }

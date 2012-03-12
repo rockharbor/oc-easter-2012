@@ -30,6 +30,21 @@
 				$('#wrapper').jmpress({
 					mouse: {
 						clickSelects: false
+					},
+					beforeChange: function(el, evt) {
+						if ($(el).hasClass('light')) {
+							$('.background').removeClass('dark').addClass('light');
+						} else {
+							$('.background').removeClass('light').addClass('dark');
+						}
+						var opac = 1;
+						if ($(el).data('background-opacity')) {
+							opac = $(el).data('background-opacity')/100;
+						}
+						$('.background').stop().animate({
+							opacity: opac
+						}, 1000);
+						return el;
 					}
 				});
 				$.oceaster.init();
@@ -38,28 +53,28 @@
 	</head>
 	<body>
 		<div id="wrapper">
-			<section class="step">
+			<section class="step" data-background-opacity="30">
 				<p>What happens when things don&apos;t turn out as we hoped?</p>
 				<p data-jmpress="drive-right after 1s step">When the job we thought would bring us life instead brings anxiety?</p>
 				<p data-jmpress="drive-right after 1s prev">When the relationship we expected to fulfill us instead brings fear?</p>
 				<p data-jmpress="drive-right after 1s prev">When the future that once looked so clear instead brings rejection?</p>
 			</section>
-			<section class="step" data-x="1000">
+			<section class="step" data-x="1000" data-background-opacity="40">
 				<p>Each disappointment robs our joy.</p>
 				<p>Until one day we turn around and realize...</p>
 			</section>
-			<section class="step" data-x="1000" data-z="-100" data-y="500" data-rotate-x="90">
+			<section class="step" data-x="1000" data-z="-100" data-y="500" data-rotate-x="90" data-background-opacity="60">
 				<p>Life has become increasingly grim.</p>
 			</section>
-			<section class="step" data-x="1000" data-z="-100" data-y="2000">
+			<section class="step" data-x="1000" data-z="-100" data-y="2000" data-background-opacity="80">
 				<p>Not knowing how to respond, we often fall into the trap of piling chains upon chains.</p>
 			</section>
-			<section class="step" data-x="2000" data-z="-100" data-y="2000" data-template="chains">
+			<section class="step" data-x="2000" data-z="-100" data-y="2000" data-template="chains" data-background-opacity="90">
 				<p>But we only add to the gloom when we reach for things that could never set us free.</p>
-				<p class="step">Escapism</p>
-				<p class="step">Busyness</p>
-				<p class="step">Isolation</p>
-				<p class="step">Apathy</p>
+				<p class="step" data-background-opacity="90">Escapism</p>
+				<p class="step" data-background-opacity="90">Busyness</p>
+				<p class="step" data-background-opacity="90">Isolation</p>
+				<p class="step" data-background-opacity="90">Apathy</p>
 			</section>
 			<section class="step" data-x="2000" data-z="-1500" data-y="2000" data-rotate-z="180">
 				<p>Will we always live with the chains?</p>
@@ -81,19 +96,19 @@
 			<section class="step" data-z="5000" data-x="-3000">
 				<p>We are free.</p>
 			</section>
-			<section class="step" data-z="3000" data-y="-2000">
+			<section class="light step" data-z="3000" data-y="-2000">
 				<p>Free from the chains that bound us.</p>
 			</section>
-			<section class="step" data-x="3000" data-y="-4000">
+			<section class="light step" data-x="3000" data-y="-4000">
 				<p>But more than that, free to grab hold of an entirely different life.</p>
 			</section>
-			<section class="step">
+			<section class="light step" data-x="3000" data-y="-4000" data-z="3000">
 				Because Jesus didn&apos;t come just to remove our chains.
 He came to replace them entirely.
 He came so that we could have life and have it to the full.
 
 			</section>
-			<section class="step">
+			<section class="light step" data-x="3000" data-y="-4000" data-z="5000" data-enter-trigger="startCycle" data-exit-trigger="endCycle">
 				<p>How we view</p>
 				<div>
 					<p>Ourselves</p>
@@ -108,9 +123,10 @@ He came so that we could have life and have it to the full.
 				</div>
 				<p>differently.</p>
 			</section>
-			<section class="step">
+			<section class="light step" data-z="10000">
 				<p>Everything is new.</p>
 			</section>
 		</div>
+		<div class="light background"></div>
 	</body>
 </html>
