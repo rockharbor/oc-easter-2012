@@ -43,10 +43,6 @@ body > header {
 	color: #000000;
 }
 
-.step:not(.active):not(.nested-active) {
-	
-}
-
 /*= Background
 **************************************************/
 .background {
