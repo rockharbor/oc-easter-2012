@@ -92,17 +92,15 @@ body > header {
 	z-index: 0;
 }
 
-#shatter div {
+#shatter > div {
 	position: absolute;
+	width: 50%;
+	height: 50%;
 }
 
 #shatter div div {
 	display: block;
-	width: 50px;
-	height: 50px;
 	position: absolute;
-	
-	background: #000;
 }
 
 /*= Animation keyframes

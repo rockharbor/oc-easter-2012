@@ -80,7 +80,7 @@
 			<section class="step" data-z="5000" data-rotate-z="180">
 				<p>As we discover this Jesus, everything changes.</p>
 			</section>
-			<section class="step" data-z="5000" data-x="-3000">
+			<section class="light step" data-z="5000" data-x="-3000" data-enter-trigger="shatter" data-exit-trigger="putBackTogether">
 				<p>We are free.</p>
 			</section>
 			<section class="light step" data-z="3000" data-y="-2000">
@@ -112,6 +112,16 @@ He came so that we could have life and have it to the full.
 			<section class="light step" data-z="10000">
 				<p>Everything is new.</p>
 			</section>
+		</div>
+		<div id="shatter">
+			<div class="quad1" style="top:0;left:0">
+			</div>
+			<div class="quad2" style="top:0;left:50%">
+			</div>
+			<div class="quad3" style="top:50%;left:50%">
+			</div>
+			<div class="quad4" style="top:50%;left:0">
+			</div>
 		</div>
 		<div class="light background"></div>
 	</body>

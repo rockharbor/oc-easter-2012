@@ -178,7 +178,7 @@
 		 */
 		putBackTogether: function(el, evt) {
 			$('#shatter').hide();
-			$('#shatter div').each(function() {
+			$('#shatter div div').each(function() {
 				$(this).css({
 					translateX: 0,
 					translateY: 0,
@@ -187,7 +187,8 @@
 					rotateY: 0,
 					rotateZ: 0,
 					scale: 1,
-					opacity: 1
+					opacity: 1,
+					filter: 'none'
 				})
 			});
 		},
