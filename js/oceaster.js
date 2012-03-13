@@ -19,14 +19,18 @@
 				$(this).bind('enterStep', function(evt) {
 					var el = $(this);
 					var func = el.data('enter-trigger');
-					$.oceaster.trigger(func, el, evt)
+					window.setTimeout(function() {
+						$.oceaster.trigger(func, el, evt)
+					}, 1100);
 				});
 			});
 			$($.jmpress('defaults').stepSelector+'[data-exit-trigger]').each(function() {
 				$(this).bind('leaveStep', function(evt) {
 					var el = $(this);
 					var func = el.data('exit-trigger');
-					$.oceaster.trigger(func, el, evt)
+					window.setTimeout(function() {
+						$.oceaster.trigger(func, el, evt)
+					}, 1100);
 				});
 			});
 			
