@@ -90,9 +90,9 @@
 				<p>But more than that, free to grab hold of an entirely different life.</p>
 			</section>
 			<section class="light step" data-x="3000" data-y="-4000" data-z="3000">
-				Because Jesus didn&apos;t come just to remove our chains.
-He came to replace them entirely.
-He came so that we could have life and have it to the full.
+				<p>Because Jesus didn&apos;t come just to remove our chains.
+				He came to replace them entirely.
+				He came so that we could have life and have it to the full.</p>
 			</section>
 			<section class="light step" data-x="3000" data-y="-4000" data-z="5000" data-enter-trigger="startCycle" data-exit-trigger="endCycle">
 				<p>How we view</p>
