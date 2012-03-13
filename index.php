@@ -55,12 +55,12 @@
 			<section class="step" data-x="1000" data-z="-100" data-y="2000" data-background-opacity="80">
 				<p>Not knowing how to respond, we often fall into the trap of piling chains upon chains.</p>
 			</section>
-			<section class="step" data-x="2000" data-z="-100" data-y="2000" data-template="chains" data-background-opacity="90">
+			<section class="step" data-x="2000" data-z="-100" data-y="2000" data-template="chains" data-background-opacity="80">
 				<p>But we only add to the gloom when we reach for things that could never set us free.</p>
-				<p class="step" data-background-opacity="90">Escapism</p>
-				<p class="step" data-background-opacity="90">Busyness</p>
-				<p class="step" data-background-opacity="90">Isolation</p>
-				<p class="step" data-background-opacity="90">Apathy</p>
+				<p class="step" data-background-opacity="84">Escapism</p>
+				<p class="step" data-background-opacity="88">Busyness</p>
+				<p class="step" data-background-opacity="92">Isolation</p>
+				<p class="step" data-background-opacity="96">Apathy</p>
 			</section>
 			<section class="step" data-x="2000" data-z="-1500" data-y="2000" data-rotate-z="180">
 				<p>Will we always live with the chains?</p>
