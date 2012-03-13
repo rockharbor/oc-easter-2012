@@ -31,6 +31,21 @@
 			});
 		},
 		
+		beforeChange: function(el, evt) {
+			if ($(el).hasClass('light')) {
+				$('.background').removeClass('dark').addClass('light');
+			} else {
+				$('.background').removeClass('light').addClass('dark');
+			}
+			var opac = 1;
+			if ($(el).data('background-opacity')) {
+				opac = $(el).data('background-opacity')/100;
+			}
+			$('.background').stop().animate({
+				opacity: opac
+			}, 1000);
+		},
+		
 		/**
 		 * Cycles through words
 		 *
