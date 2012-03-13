@@ -4,6 +4,16 @@ body {
 	font: 25px/30px 'UniversLTStd57Condensed', Helvetica, Arial, sans-serif;
 }
 
+.next {
+	text-decoration: none;
+	color: #fff;
+}
+
+.next.active {
+	-webkit-animation: blink 3s infinite;
+    -moz-animation: blink 3s infinite;
+}
+
 /*= Global Nav
 **************************************************/
 body > header {
@@ -70,4 +80,22 @@ body > header {
 
 .cycle p:first-child {
 	top: 0;
+}
+
+/*= Animation keyframes
+**************************************************/
+@-webkit-keyframes blink {
+	0% { color: rgba(0,0,0,.6); }
+	50% { color: rgba(0,0,0,0); }
+	100% { color: rgba(0,0,0,.6); }
+}
+@-moz-keyframes blink {
+	0% { color: rgba(0,0,0,.6); }
+	50% { color: rgba(0,0,0,0); }
+	100% { color: rgba(0,0,0,.6); }
+}
+@keyframes blink {
+	0% { color: rgba(0,0,0,.6); }
+	50% { color: rgba(0,0,0,0); }
+	100% { color: rgba(0,0,0,.6); }
 }

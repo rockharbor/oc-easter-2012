@@ -29,9 +29,18 @@
 					$.oceaster.trigger(func, el, evt)
 				});
 			});
+			
+			// set up 'next' links
+			$('.next').click(function() {
+				$('#wrapper').jmpress('next');
+			})
 		},
 		
 		beforeChange: function(el, evt) {
+			// remove active 'next' links
+			$('.next').stop().removeClass('active');
+			
+			// background changes
 			if ($(el).hasClass('light')) {
 				$('.background').removeClass('dark').addClass('light');
 			} else {
@@ -44,6 +53,15 @@
 			$('.background').stop().animate({
 				opacity: opac
 			}, 1000);
+			
+			// check for 'next' links
+			var delay = 5000;
+			if ($(el).data('next-delay')) {
+				delay = $(el).data('next-delay');
+			}
+			$(el).find('.next').delay(delay).queue(function() {
+				$(this).addClass('active');
+			});
 		},
 		
 		/**
