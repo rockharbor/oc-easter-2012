@@ -36,6 +36,13 @@
 			})
 		},
 		
+		/**
+		 * Called before step changes
+		 *
+		 * @param Element el The upcoming step element
+		 * @param hash evt The event data
+		 * @return void
+		 */
 		beforeChange: function(el, evt) {
 			// remove active 'next' links
 			$('.next').stop().removeClass('active');
