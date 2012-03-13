@@ -102,6 +102,93 @@
 		},
 		
 		/**
+		 * Shatters elements into (roughly) a million pieces, going every
+		 * whichaway
+		 *
+		 * @param Element el The current step element
+		 * @param hash evt The event data
+		 * @return void
+		 */
+		shatter: function(el, evt) {
+			$('#shatter').show();
+			
+			var rand = function(max, min) {
+				if (!min) {
+					min = 0;
+				}
+				return Math.floor(Math.random()*(max+min)+min);
+			}
+			
+			$('#shatter>div').each(function() {
+				var parent = $(this);
+				var parentClass = parent[0].className;
+
+				parent.children().each(function(index) {
+					var randX, randY, randZ;
+					switch (parentClass) {
+						case 'quad1':
+						randX = -rand(20);
+						randY = -rand(20);
+						randZ = Math.random() < .5 ? -rand(20) : rand(20);
+						break;
+						case 'quad2':
+						randX = rand(20);
+						randY = -rand(20);
+						randZ = Math.random() < .5 ? -rand(20) : rand(20);
+						break;
+						case 'quad3':
+						randX = rand(20);
+						randY = rand(20);
+						randZ = Math.random() < .5 ? -rand(20) : rand(20);
+						break;
+						case 'quad4':
+						default:
+						randX = rand(20);
+						randY = -rand(20);
+						randZ = Math.random() < .5 ? -rand(20) : rand(20);
+						break;
+					}
+
+					var selector = '#shatter .'+parentClass+' :nth-child('+(index+1)+')';
+
+					$(selector).animate({
+						translateX: randX,
+						translateY: randY,
+						translateZ: randZ,
+						rotateX: rand(300, 50)*Math.PI/180,
+						rotateY: rand(300, 50)*Math.PI/180,
+						rotateZ: rand(300, 50)*Math.PI/180,
+						scale: rand(0,2),
+						opacity: 0
+					}, 2000);
+				});
+			});
+		},
+		
+		/**
+		 * Puts humpty back together
+		 *
+		 * @param Element el The current step element
+		 * @param hash evt The event data
+		 * @return void
+		 */
+		putBackTogether: function(el, evt) {
+			$('#shatter').hide();
+			$('#shatter div').each(function() {
+				$(this).css({
+					translateX: 0,
+					translateY: 0,
+					translateZ: 0,
+					rotateX: 0,
+					rotateY: 0,
+					rotateZ: 0,
+					scale: 1,
+					opacity: 1
+				})
+			});
+		},
+		
+		/**
 		 * Triggers a function on the `$.oceaster` object, passing the element
 		 * and the event data as arguments
 		 *
