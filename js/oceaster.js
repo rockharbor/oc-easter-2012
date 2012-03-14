@@ -203,7 +203,8 @@
 					rotateZ: 0,
 					scale: 1,
 					opacity: 1,
-					filter: 'none'
+					filter: 'none',
+					background: '#000'
 				})
 			});
 		},
