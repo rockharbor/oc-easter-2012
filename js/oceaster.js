@@ -153,7 +153,7 @@
 				rotateY = rand(300, 50);
 				rotateZ = rand(300, 50);
 				
-				$(this).delay(1000).animate({
+				$(this).animate({
 					translateX: randX,
 					translateY: randY,
 					translateZ: randZ,
