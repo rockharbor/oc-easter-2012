@@ -174,7 +174,7 @@
 					rotateY: rotateY*Math.PI/180,
 					rotateZ: rotateZ*Math.PI/180,
 					opacity: 0
-				}, 800);
+				}, 1000);
 				
 				$(this).css({
 					background: 'transparent'
