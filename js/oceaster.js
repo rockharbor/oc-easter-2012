@@ -111,6 +111,18 @@
 		endCycle: function(el, evt) {
 			$(el).children('.cycle').stop().animate({scrollTop: 0});
 		},
+
+		/**
+		 * Sets up the shatter effect
+		 *
+		 * @param Element el The current step element
+		 * @param hash evt The event data
+		 * @return void
+		 */
+		setupShatter: function(el, evt) {
+			$.oceaster.putBackTogether(el, evt);
+			$('#shatter').show();
+		},
 		
 		/**
 		 * Shatters elements into (roughly) a million pieces, going every
@@ -121,7 +133,8 @@
 		 * @return void
 		 */
 		shatter: function(el, evt) {
-			$('#shatter').show();
+			$('.background').removeClass('dark');
+			$(el).addClass('light');
 			
 			var rand = function(max, min) {
 				if (!min) {
@@ -178,6 +191,7 @@
 		 */
 		putBackTogether: function(el, evt) {
 			$('#shatter').hide();
+			$(el).removeClass('light');
 			$('.background').addClass('dark');
 			$('#shatter div').each(function() {
 				$(this).css({

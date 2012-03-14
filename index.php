@@ -80,7 +80,7 @@
 			<section class="step" data-z="5000" data-rotate-z="180">
 				<p>As we discover this Jesus, everything changes.</p>
 			</section>
-			<section class="light step" data-z="5000" data-x="-3000" data-enter-trigger="shatter" data-exit-trigger="putBackTogether">
+			<section class="step" data-z="5000" data-x="-3000" data-pre-enter-trigger="setupShatter" data-enter-trigger="shatter" data-exit-trigger="putBackTogether">
 				<p>We are free.</p>
 			</section>
 			<section class="light step" data-z="3000" data-y="-2000">
