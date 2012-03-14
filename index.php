@@ -114,14 +114,44 @@
 			</section>
 		</div>
 		<div id="shatter">
-			<div class="quad1" style="top:0;left:0">
-			</div>
-			<div class="quad2" style="top:0;left:50%">
-			</div>
-			<div class="quad3" style="top:50%;left:50%">
-			</div>
-			<div class="quad4" style="top:50%;left:0">
-			</div>
+			<div style="left: 527px; top: 558px; "><img src="/img/shatter1.png"></div>
+			<div style="left: 1068px; top: 865px; "><img src="/img/shatter2.png"></div>
+			<div style="left: 878px; top: 1px; "><img src="/img/shatter3.png"></div>
+			<div style="left: 1068px; top: 231px; "><img src="/img/shatter4.png"></div>
+			<div style="left: 967px; top: 399px; "><img src="/img/shatter5.png"></div>
+			<div style="left: 792px; top: 448px; "><img src="/img/shatter6.png"></div>
+			<div style="left: 987px; top: 841px; "><img src="/img/shatter7.png"></div>
+			<div style="left: 792px; top: 524px; "><img src="/img/shatter8.png"></div>
+			<div style="left: 783px; top: 214px; "><img src="/img/shatter9.png"></div>
+			<div style="left: 574px; top: 292px; "><img src="/img/shatter10.png"></div>
+			<div style="left: 638px; top: 0px; "><img src="/img/shatter11.png"></div>
+			<div style="left: 639px; top: 448px; "><img src="/img/shatter12.png"></div>
+			<div style="left: 819px; top: 648px; "><img src="/img/shatter13.png"></div>
+			<div style="left: 731px; top: 614px; "><img src="/img/shatter14.png"></div>
+			<div style="left: 662px; top: 907px; "><img src="/img/shatter15.png"></div>
+			<div style="left: 609px; top: 1080px; "><img src="/img/shatter16.png"></div>
+			<div style="left: 240px; top: 1007px; "><img src="/img/shatter17.png"></div>
+			<div style="left: 455px; top: 966px; "><img src="/img/shatter18.png"></div>
+			<div style="left: 160px; top: 1024px; "><img src="/img/shatter19.png"></div>
+			<div style="left: 0px; top: 954px; "><img src="/img/shatter20.png"></div>
+			<div style="left: 587px; top: 677px; "><img src="/img/shatter21.png"></div>
+			<div style="left: 428px; top: 763px; "><img src="/img/shatter22.png"></div>
+			<div style="left: 242px; top: 849px; "><img src="/img/shatter23.png"></div>
+			<div style="left: 0px; top: 753px; "><img src="/img/shatter24.png"></div>
+			<div style="left: 295px; top: 666px; "><img src="/img/shatter25.png"></div>
+			<div style="left: 478px; top: 677px; "><img src="/img/shatter26.png"></div>
+			<div style="left: 443px; top: 398px; "><img src="/img/shatter27.png"></div>
+			<div style="left: 137px; top: 386px; "><img src="/img/shatter28.png"></div>
+			<div style="left: 0px; top: 596px; "><img src="/img/shatter29.png"></div>
+			<div style="left: 101px; top: 578px; "><img src="/img/shatter30.png"></div>
+			<div style="left: 0px; top: 412px; "><img src="/img/shatter31.png"></div>
+			<div style="left: 0px; top: 124px; "><img src="/img/shatter32.png"></div>
+			<div style="left: 227px; top: 234px; "><img src="/img/shatter33.png"></div>
+			<div style="left: 443px; top: 133px; "><img src="/img/shatter34.png"></div>
+			<div style="left: 388px; top: 0px; "><img src="/img/shatter35.png"></div>
+			<div style="left: 408px; top: 0px; "><img src="/img/shatter36.png"></div>
+			<div style="left: 221px; top: 0px; "><img src="/img/shatter37.png"></div>
+			<div style="left: 0px; top: 0px; "><img src="/img/shatter38.png"></div>
 		</div>
 		<div class="light background"></div>
 	</body>

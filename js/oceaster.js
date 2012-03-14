@@ -123,48 +123,41 @@
 				return Math.floor(Math.random()*(max+min)+min);
 			}
 			
-			$('#shatter>div').each(function() {
-				var parent = $(this);
-				var parentClass = parent[0].className;
+			$('#shatter div').each(function(index) {
+				var top = $(this).css('top').slice(0, -2);
+				var left = $(this).css('left').slice(0, -2);
+				
+				var randX, randY, randZ, rotateX, rotateY, rotateZ;
+				
+				var spread = 500;
+				if (left < 600) {
+					randX = -rand(spread);
+				} else {
+					randX = rand(spread);
+				}
+				if (top < 600) {
+					randY = -rand(spread);
+				} else {
+					randY = -rand(spread);
+				}
+				randZ = Math.random() < .5 ? -rand(200) : rand(200);
 
-				parent.children().each(function(index) {
-					var randX, randY, randZ;
-					switch (parentClass) {
-						case 'quad1':
-						randX = -rand(20);
-						randY = -rand(20);
-						randZ = Math.random() < .5 ? -rand(20) : rand(20);
-						break;
-						case 'quad2':
-						randX = rand(20);
-						randY = -rand(20);
-						randZ = Math.random() < .5 ? -rand(20) : rand(20);
-						break;
-						case 'quad3':
-						randX = rand(20);
-						randY = rand(20);
-						randZ = Math.random() < .5 ? -rand(20) : rand(20);
-						break;
-						case 'quad4':
-						default:
-						randX = rand(20);
-						randY = -rand(20);
-						randZ = Math.random() < .5 ? -rand(20) : rand(20);
-						break;
-					}
-
-					var selector = '#shatter .'+parentClass+' :nth-child('+(index+1)+')';
-
-					$(selector).animate({
-						translateX: randX,
-						translateY: randY,
-						translateZ: randZ,
-						rotateX: rand(300, 50)*Math.PI/180,
-						rotateY: rand(300, 50)*Math.PI/180,
-						rotateZ: rand(300, 50)*Math.PI/180,
-						scale: rand(0,2),
-						opacity: 0
-					}, 2000);
+				rotateX = rand(300, 50);
+				rotateY = rand(300, 50);
+				rotateZ = rand(300, 50);
+				
+				$(this).delay(1000).animate({
+					translateX: randX,
+					translateY: randY,
+					translateZ: randZ,
+					rotateX: rotateX*Math.PI/180,
+					rotateY: rotateY*Math.PI/180,
+					rotateZ: rotateZ*Math.PI/180,
+					opacity: 0
+				}, 800);
+				
+				$(this).css({
+					background: 'transparent'
 				});
 			});
 		},
@@ -178,7 +171,8 @@
 		 */
 		putBackTogether: function(el, evt) {
 			$('#shatter').hide();
-			$('#shatter div div').each(function() {
+			$('.background').addClass('dark');
+			$('#shatter div').each(function() {
 				$(this).css({
 					translateX: 0,
 					translateY: 0,
