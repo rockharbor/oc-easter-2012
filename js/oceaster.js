@@ -201,11 +201,11 @@
 		 * @return void
 		 */
 		trigger: function(func, el, evt) {
-			try {
-				this[func](el, evt);
-			} catch (e) {
+			if (this[func] == undefined) {
 				this.log(func+' is not a function');
+				return;
 			}
+			this[func].call(this, el, evt);
 		},
 		
 		/**
