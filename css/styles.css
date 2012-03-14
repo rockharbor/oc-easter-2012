@@ -14,6 +14,10 @@ body {
     -moz-animation: blink 3s infinite;
 }
 
+#wrapper {
+	text-align: center;
+}
+
 /*= Global Nav
 **************************************************/
 body > header {
@@ -87,9 +91,9 @@ body > header {
 #shatter {
 	display:  none;
 	position: absolute;
-	width: 100%;
-	height: 100%;
+	left: 50%;
 	z-index: 10;
+	margin-left: -600px;
 }
 
 #shatter div {
