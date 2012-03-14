@@ -24,6 +24,13 @@
 					}, 1100);
 				});
 			});
+			$($.jmpress('defaults').stepSelector+'[data-pre-enter-trigger]').each(function() {
+				$(this).bind('enterStep', function(evt) {
+					var el = $(this);
+					var func = el.data('pre-enter-trigger');
+					$.oceaster.trigger(func, el, evt)
+				});
+			});
 			$($.jmpress('defaults').stepSelector+'[data-exit-trigger]').each(function() {
 				$(this).bind('leaveStep', function(evt) {
 					var el = $(this);
