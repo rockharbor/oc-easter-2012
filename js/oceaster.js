@@ -93,7 +93,8 @@
 			// set up 'next' links
 			$('.next').click(function() {
 				$('#wrapper').jmpress('next');
-			})
+				$('#hint').slideUp();
+			});
 		},
 		
 		/**
