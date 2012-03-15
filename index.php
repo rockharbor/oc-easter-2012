@@ -43,11 +43,11 @@
 	</head>
 	<body>
 		<div id="wrapper">
-			<section class="step" data-background-opacity="30">
+			<section id="whathappens" class="darktext step" data-background-opacity="1" data-next-delay="12000">
 				<p>What happens when things don&apos;t turn out as we hoped?</p>
-				<p data-jmpress="drive-right after 1s step">When the job we thought would bring us life instead brings anxiety?</p>
-				<p data-jmpress="drive-right after 1s prev">When the relationship we expected to fulfill us instead brings fear?</p>
-				<p data-jmpress="drive-right after 1s prev">When the future that once looked so clear instead brings rejection?</p>
+				<p data-jmpress="drive-right after 4s step">When the job we thought would bring us life instead brings anxiety?</p>
+				<p data-jmpress="drive-right after 4s prev">When the relationship we expected to fulfill us instead brings fear?</p>
+				<p data-jmpress="drive-right after 4s prev">When the future that once looked so clear instead brings rejection<a href="#" class="next" onclick="$('#hint').slideUp()">?</a></p>
 			</section>
 			<section class="step" data-x="1000" data-background-opacity="40">
 				<p>Each disappointment robs our joy.</p>
