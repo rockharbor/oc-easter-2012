@@ -29,6 +29,9 @@
 			
 			$(document).ready(function() {
 				$('#wrapper').jmpress({
+					keyboard: {
+						use: false
+					},
 					mouse: {
 						clickSelects: false
 					},
