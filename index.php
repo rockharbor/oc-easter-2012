@@ -90,8 +90,8 @@
 			<section id="free" class="step" data-z="6000" data-rotate-z="180" data-pre-enter-trigger="setupShatter" data-enter-trigger="shatter" data-exit-trigger="putBackTogether">
 				<p class="large"><a href="#" class="next">We are free</a></p>
 			</section>
-			<section class="light step" data-z="3000" data-y="-2000">
-				<p>Free from the chains that bound us.</p>
+			<section id="free-from-chains" class="light step" data-z="3000" data-y="-2000">
+				<p>Free from the chains that bound <a href="#" class="next blue">us</a>.</p>
 			</section>
 			<section class="light step" data-x="3000" data-y="-4000">
 				<p>But more than that, free to grab hold of an entirely different life.</p>
