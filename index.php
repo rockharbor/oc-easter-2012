@@ -93,8 +93,8 @@
 			<section id="free-from-chains" class="light step" data-z="3000" data-y="-2000">
 				<p>Free from the chains that bound <a href="#" class="next blue">us</a>.</p>
 			</section>
-			<section class="light step" data-x="3000" data-y="-4000">
-				<p>But more than that, free to grab hold of an entirely different life.</p>
+			<section id="different-life" class="light step" data-x="3000" data-y="-4000">
+				<p>But more than that, free to <a href="#" class="next blue">grab hold</a> of an entirely different life.</p>
 			</section>
 			<section class="light step" data-x="3000" data-y="-4000" data-z="3000">
 				<p>Because Jesus didn&apos;t come just to remove our chains.
