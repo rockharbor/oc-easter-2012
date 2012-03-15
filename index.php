@@ -87,8 +87,8 @@
 			<section id="everything-changes" class="step" data-z="5000" data-rotate-z="180">
 				<p>As we discover this Jesus, <a href="#" class="next">everything</a> changes.</p>
 			</section>
-			<section class="step" data-z="6000" data-rotate-z="180" data-pre-enter-trigger="setupShatter" data-enter-trigger="shatter" data-exit-trigger="putBackTogether">
-				<p>We are free.</p>
+			<section id="free" class="step" data-z="6000" data-rotate-z="180" data-pre-enter-trigger="setupShatter" data-enter-trigger="shatter" data-exit-trigger="putBackTogether">
+				<p class="large"><a href="#" class="next">We are free</a></p>
 			</section>
 			<section class="light step" data-z="3000" data-y="-2000">
 				<p>Free from the chains that bound us.</p>
