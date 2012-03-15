@@ -5,6 +5,11 @@ body {
 	color: #ffffff;
 }
 
+.large {
+	font: 35px/40px Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
 .next {
 	color: rgb(239, 71, 35);
 	text-decoration: none;
