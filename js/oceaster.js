@@ -50,8 +50,7 @@
 			});
 			
 			// workaround for firefox not rendering high z depth elements correctly on windows
-			var pfxd = $.jmpress('pfx', 'perspective');
-			if (pfxd.slice(0,3) === 'Moz' && navigator.userAgent.indexOf('Windows') !== -1) {
+			if (($.browser.mozilla || $.browser.msie) && navigator.userAgent.indexOf('Windows') !== -1) {
 				$($.jmpress('defaults').stepSelector).bind('enterStep', function(evt) {
 					var target = $(evt.target);
 					var z = 0;
@@ -168,6 +167,10 @@
 		 * @return void
 		 */
 		setupShatter: function(el, evt) {
+			if ($.browser.msie) {
+				// sorry, ie. i don't have time :/
+				return;
+			}
 			$.oceaster.putBackTogether(el, evt);
 			$('#shatter').show();
 		},
@@ -183,6 +186,11 @@
 		shatter: function(el, evt) {
 			$('.background').removeClass('dark');
 			$(el).addClass('light');
+			
+			if ($.browser.msie) {
+				// sorry, ie. i don't have time :/
+				return;
+			}
 			
 			var rand = function(max, min) {
 				if (!min) {
@@ -238,6 +246,11 @@
 		 * @return void
 		 */
 		putBackTogether: function(el, evt) {
+			if ($.browser.msie) {
+				// sorry, ie. i don't have time :/
+				return;
+			}
+			
 			$('#shatter').hide();
 			$(el).removeClass('light');
 			$('.background').addClass('dark');
