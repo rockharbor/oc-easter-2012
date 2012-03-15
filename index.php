@@ -70,8 +70,8 @@
 				<p class="step large" data-background-opacity="92"><a href="#" class="next">Isolation</a></p>
 				<p class="step large" data-background-opacity="96"><a href="#" class="next">Apathy</a></p>
 			</section>
-			<section class="step" data-x="2000" data-z="-1500" data-y="2000" data-rotate-z="180">
-				<p>Will we always live with the chains?</p>
+			<section id="live" class="step" data-x="2000" data-z="-1500" data-y="2000" data-rotate-z="180">
+				<p>Will we always <a href="#" class="next">live</a> with the chains?</p>
 			</section>
 			<section class="step" data-x="1000" data-z="-1500" data-y="2000" data-rotate-z="180">
 				<p>Or can tomorrow&apos;s dawn really bring...</p>
