@@ -84,8 +84,8 @@
 				<p class="step">To renew life.</p>
 				<p class="step">So that we could know God.</p>
 			</section>
-			<section class="step" data-z="5000" data-rotate-z="180">
-				<p>As we discover this Jesus, everything changes.</p>
+			<section id="everything-changes" class="step" data-z="5000" data-rotate-z="180">
+				<p>As we discover this Jesus, <a href="#" class="next">everything</a> changes.</p>
 			</section>
 			<section class="step" data-z="6000" data-rotate-z="180" data-pre-enter-trigger="setupShatter" data-enter-trigger="shatter" data-exit-trigger="putBackTogether">
 				<p>We are free.</p>
