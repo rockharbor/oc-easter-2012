@@ -60,8 +60,8 @@
 			<section id="life" class="step" data-x="1000" data-z="-500" data-y="1000" data-rotate-x="90" data-background-opacity="60">
 				<p class="large">Life has become increasingly <a href="#" class="next">grim</a>.</p>
 			</section>
-			<section class="step" data-x="1000" data-z="-100" data-y="2000" data-background-opacity="80">
-				<p>Not knowing how to respond, we often fall into the trap of piling chains upon chains.</p>
+			<section id="chains" class="step" data-x="1000" data-z="-100" data-y="2000" data-background-opacity="80">
+				<p>Not knowing how to respond, we often <a href="#" class="next">fall</a> into the trap of piling chains upon chains.</p>
 			</section>
 			<section class="step" data-x="2000" data-z="-100" data-y="2000" data-template="chains" data-background-opacity="80">
 				<p>But we only add to the gloom when we reach for things that could never set us free.</p>
