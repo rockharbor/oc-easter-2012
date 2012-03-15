@@ -140,20 +140,44 @@ body > header {
 	background: #000000;
 }
 
+/*= Step styles
+**************************************************/
+#whathappens {
+	width: 800px;
+}
+
 /*= Animation keyframes
 **************************************************/
 @-webkit-keyframes blink {
-	0% { color: rgba(0,0,0,.6); }
-	50% { color: rgba(0,0,0,0); }
-	100% { color: rgba(0,0,0,.6); }
+	0% { 
+		color: rgba(0,0,0,1);
+	}
+	50% { 
+		color: rgba(0,0,0,.3);
+	}
+	100% { 
+		color: rgba(0,0,0,1);
+	}
 }
 @-moz-keyframes blink {
-	0% { color: rgba(0,0,0,.6); }
-	50% { color: rgba(0,0,0,0); }
-	100% { color: rgba(0,0,0,.6); }
+	0% { 
+		color: rgba(0,0,0,1);
+	}
+	50% { 
+		color: rgba(0,0,0,.3);
+	}
+	100% { 
+		color: rgba(0,0,0,1);
+	}
 }
 @keyframes blink {
-	0% { color: rgba(0,0,0,.6); }
-	50% { color: rgba(0,0,0,0); }
-	100% { color: rgba(0,0,0,.6); }
+	0% { 
+		color: rgba(0,0,0,1);
+	}
+	50% { 
+		color: rgba(0,0,0,.3);
+	}
+	100% { 
+		color: rgba(0,0,0,1);
+	}
 }
