@@ -49,6 +49,46 @@
 				});
 			});
 			
+			// workaround for firefox not rendering high z depth elements correctly on windows
+			var pfxd = $.jmpress('pfx', 'perspective');
+			if (pfxd.slice(0,3) === 'Moz' && navigator.userAgent.indexOf('Windows') !== -1) {
+				$($.jmpress('defaults').stepSelector).bind('enterStep', function(evt) {
+					var target = $(evt.target);
+					var z = 0;
+					// get this step's z
+					if (target.data('z')) {
+						z = target.data('z');
+					}
+					// or inherit its parent
+					var parent = target.parent($.jmpress('defaults').stepSelector);
+					if (parent.length > 0) {
+						if (parent.data('z')) {
+							z = Number(parent.data('z'));
+						}
+					}
+					$($.jmpress('defaults').stepSelector).each(function() {
+						var el = $(this);
+						var compareZ = 0;
+						if (el.data('z')) {
+							compareZ = el.data('z');
+						}
+						var parent = el.parent($.jmpress('defaults').stepSelector);
+						if (parent.length > 0) {
+							if (parent.data('z')) {
+								compareZ = Number(parent.data('z'));
+							}
+						}
+						// hide everything above the current step's z
+						if (compareZ <= z) {
+							el.show(); 
+						} else {
+							el.hide();
+						}
+					})
+				});
+			}
+			
+			
 			// set up 'next' links
 			$('.next').click(function() {
 				$('#wrapper').jmpress('next');
