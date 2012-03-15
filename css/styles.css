@@ -93,7 +93,7 @@ body > header {
 	-o-transition: 1s;
 	transition: 1s;
 	
-	opacity: 0.3;
+	opacity: 0;
 }
 
 .step.active,
