@@ -2,20 +2,37 @@
 **************************************************/
 body {
 	font: 25px/30px 'UniversLTStd57Condensed', Helvetica, Arial, sans-serif;
+	color: #ffffff;
 }
 
 .next {
+	color: rgb(239, 71, 35);
+}
+
+.darktext .next,
+.light .next {
 	text-decoration: none;
-	color: #fff;
+	color: rgb(62, 86, 166);
 }
 
 .next.active {
+	color: rgb(239, 71, 35);
+}
+
+.darktext .next.active,
+.light .next.active {
 	-webkit-animation: blink 3s infinite;
     -moz-animation: blink 3s infinite;
+	
+	color: rgb(62, 86, 166);
 }
 
 #wrapper {
 	text-align: center;
+}
+
+.darktext {
+	color: #000000;
 }
 
 /*= Global Nav
@@ -34,8 +51,6 @@ body > header {
 	height: 300px;
 	padding: 20px;
 	display: block;
-	
-	color: #ffffff;
 	
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
