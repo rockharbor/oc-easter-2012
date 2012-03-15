@@ -87,6 +87,8 @@
 				});
 			}
 			
+			// set up hint
+			$('#hint').delay(14000).slideDown();
 			
 			// set up 'next' links
 			$('.next').click(function() {

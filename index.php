@@ -42,6 +42,7 @@
 		</script>
 	</head>
 	<body>
+		<div id="hint">I want to take you on a journey. Click on the colors to advance.</div>
 		<div id="wrapper">
 			<section id="whathappens" class="darktext step" data-background-opacity="1" data-next-delay="12000">
 				<p>What happens when things don&apos;t turn out as we hoped?</p>

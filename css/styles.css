@@ -35,6 +35,26 @@ body {
 	color: #000000;
 }
 
+/*= Hint
+**************************************************/
+#hint {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 5px;
+	display: none;
+	
+	text-align: center;
+	color: #000000;
+	font-size: 13px;
+	
+	border: 1px solid #cccccc;
+
+	box-shadow: 0px 0px 7px #000000;
+	
+	background: #ffffff;
+}
+
 /*= Global Nav
 **************************************************/
 body > header {
