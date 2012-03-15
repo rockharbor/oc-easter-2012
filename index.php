@@ -57,8 +57,8 @@
 				<p>Each disappointment robs our joy.</p>
 				<p>Until one day we <a href="#" class="next blue">turn</a> around and realize...</p>
 			</section>
-			<section class="step" data-x="1000" data-z="-100" data-y="500" data-rotate-x="90" data-background-opacity="60">
-				<p>Life has become increasingly grim.</p>
+			<section id="life" class="step" data-x="1000" data-z="-500" data-y="1000" data-rotate-x="90" data-background-opacity="60">
+				<p class="large">Life has become increasingly <a href="#" class="next">grim</a>.</p>
 			</section>
 			<section class="step" data-x="1000" data-z="-100" data-y="2000" data-background-opacity="80">
 				<p>Not knowing how to respond, we often fall into the trap of piling chains upon chains.</p>
