@@ -157,6 +157,25 @@ body > header {
 	width: 800px;
 }
 
+#everything-changes {
+	width: 700px;
+}
+
+#free p {
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+#everything-is-new {
+	width: 900px;
+}
+
+#everything-is-new p {
+	font-size: 72px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
 /*= Animation keyframes
 **************************************************/
 @-webkit-keyframes blink {
