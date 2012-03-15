@@ -107,7 +107,6 @@
 					<p>Our dreams</p>
 					<p>Our purpose</p>
 				</div>
-				<p>differently.</p>
 			</section>
 			<section class="light step" data-z="10000">
 				<p>Everything is new.</p>
