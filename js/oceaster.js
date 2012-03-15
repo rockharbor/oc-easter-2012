@@ -15,6 +15,14 @@
 		 * @return void
 		 */
 		init: function() {
+			// extra easing function stole'd from jquery ui (and mathematics)
+			$.extend($.easing, {
+				def: 'easeOutQuad',
+				easeOutQuad: function (x, t, b, c, d) {
+					return -c *(t/=d)*(t-2) + b;
+				}
+			});
+			
 			$($.jmpress('defaults').stepSelector+'[data-enter-trigger]').each(function() {
 				$(this).bind('enterStep', function(evt) {
 					var el = $(this);
@@ -149,22 +157,22 @@
 				
 				var randX, randY, randZ, rotateX, rotateY, rotateZ;
 				
-				var spread = 500;
+				var spread = 1200;
 				if (left < 600) {
-					randX = -rand(spread);
+					randX = -rand(spread, 600);
 				} else {
-					randX = rand(spread);
+					randX = rand(spread, 600);
 				}
 				if (top < 600) {
-					randY = -rand(spread);
+					randY = -rand(spread, 600);
 				} else {
-					randY = -rand(spread);
+					randY = rand(spread, 600);
 				}
 				randZ = Math.random() < .5 ? -rand(200) : rand(200);
 
-				rotateX = rand(300, 50);
-				rotateY = rand(300, 50);
-				rotateZ = rand(300, 50);
+				rotateX = rand(180, 150);
+				rotateY = rand(180, 150);
+				rotateZ = rand(180, 150);
 				
 				$(this).animate({
 					translateX: randX,
@@ -174,7 +182,7 @@
 					rotateY: rotateY*Math.PI/180,
 					rotateZ: rotateZ*Math.PI/180,
 					opacity: 0
-				}, 1000);
+				}, 4000, 'easeOutQuad');
 				
 				$(this).css({
 					background: 'transparent'
@@ -193,7 +201,7 @@
 			$('#shatter').hide();
 			$(el).removeClass('light');
 			$('.background').addClass('dark');
-			$('#shatter div').each(function() {
+			$('#shatter div').stop().each(function() {
 				$(this).css({
 					translateX: 0,
 					translateY: 0,
