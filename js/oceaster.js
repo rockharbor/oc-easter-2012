@@ -88,12 +88,25 @@
 			}
 			
 			// set up hint
-			$('#hint').delay(14000).slideDown();
+			if ($('#wrapper').jmpress('active').attr('id') == 'whathappens') {
+				$('#hint').delay(14000).slideDown();
+			} else {
+				$('#hint').slideDown();
+			}
 			
 			// set up 'next' links
 			$('.next').click(function() {
 				$('#wrapper').jmpress('next');
-				$('#hint').stop().slideUp();
+			});
+			
+			// set up menu toggle
+			$('#menu-toggle').click(function() {
+				if ($('#notes').is(':visible')) {
+					$('#menu-toggle').fadeOut();
+					$('#notes').fadeOut(function() {
+						$('#menu').fadeIn();
+					});
+				}
 			});
 		},
 		

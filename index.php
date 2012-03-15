@@ -45,11 +45,18 @@
 		</script>
 	</head>
 	<body>
-		<div id="hint">
-			<p>I want to take you on a journey. Click on the colors to advance.</p>
-			<!--[if lte IE 10]>
-			<p class="note">This site uses new technologies. For the full experience, please consider viewing this site in a browser such as Chrome or Safari.</p>
-			<![endif]-->
+		<div id="hint" class="clearfix">
+			<div id="menu-toggle">
+				<p>Menu</p>
+			</div>
+			<div id="notes">
+				<p>I want to take you on a journey. Click on the colors to advance.</p>
+				<!--[if lte IE 10]>
+				<p class="note">This site uses new technologies. For the full experience, please consider viewing this site in a browser such as Chrome or Safari.</p>
+				<![endif]-->
+			</div>
+			<div id="menu">
+			</div>
 		</div>
 		<div id="wrapper">
 			<section id="whathappens" class="darktext step" data-background-opacity="1" data-next-delay="12000">
