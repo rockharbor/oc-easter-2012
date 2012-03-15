@@ -65,10 +65,10 @@
 			</section>
 			<section id="gloom" class="step" data-x="2000" data-z="-100" data-y="2000" data-template="chains" data-background-opacity="80">
 				<p>But we only add to the <a href="#" class="next">gloom</a> when we reach for things that could never set us free.</p>
-				<p class="step" data-background-opacity="84"><a href="#" class="next">Escapism</a></p>
-				<p class="step" data-background-opacity="88"><a href="#" class="next">Busyness</a></p>
-				<p class="step" data-background-opacity="92"><a href="#" class="next">Isolation</a></p>
-				<p class="step" data-background-opacity="96"><a href="#" class="next">Apathy</a></p>
+				<p class="step large" data-background-opacity="84"><a href="#" class="next">Escapism</a></p>
+				<p class="step large" data-background-opacity="88"><a href="#" class="next">Busyness</a></p>
+				<p class="step large" data-background-opacity="92"><a href="#" class="next">Isolation</a></p>
+				<p class="step large" data-background-opacity="96"><a href="#" class="next">Apathy</a></p>
 			</section>
 			<section class="step" data-x="2000" data-z="-1500" data-y="2000" data-rotate-z="180">
 				<p>Will we always live with the chains?</p>
