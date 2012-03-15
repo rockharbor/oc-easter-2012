@@ -7,20 +7,22 @@ body {
 
 .next {
 	color: rgb(239, 71, 35);
+	text-decoration: none;
 }
 
-.darktext .next,
-.light .next {
+.next.blue {
 	text-decoration: none;
 	color: rgb(62, 86, 166);
 }
 
 .next.active {
+	-webkit-animation: blink 3s infinite;
+    -moz-animation: blink 3s infinite;
+	
 	color: rgb(239, 71, 35);
 }
 
-.darktext .next.active,
-.light .next.active {
+.next.blue.active {
 	-webkit-animation: blink 3s infinite;
     -moz-animation: blink 3s infinite;
 	
