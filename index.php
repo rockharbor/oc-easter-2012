@@ -50,9 +50,9 @@
 				<p data-jmpress="drive-right after 4s prev">When the relationship we expected to fulfill us instead brings fear?</p>
 				<p data-jmpress="drive-right after 4s prev">When the future that once looked so clear instead brings rejection<a href="#" class="next blue" onclick="$('#hint').slideUp()">?</a></p>
 			</section>
-			<section class="step" data-x="1000" data-background-opacity="40">
+			<section id="turnaround" class="step" data-x="1000" data-background-opacity="40">
 				<p>Each disappointment robs our joy.</p>
-				<p>Until one day we turn around and realize...</p>
+				<p>Until one day we <a href="#" class="next blue">turn</a> around and realize...</p>
 			</section>
 			<section class="step" data-x="1000" data-z="-100" data-y="500" data-rotate-x="90" data-background-opacity="60">
 				<p>Life has become increasingly grim.</p>
