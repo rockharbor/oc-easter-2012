@@ -11,6 +11,9 @@
 		<link rel="stylesheet" href="css/basic-animations.css" />
 		<link rel="stylesheet" href="css/fonts.css" />
 		<link rel="stylesheet" href="css/styles.css" />
+		<!--[if IE]>
+		<link rel="stylesheet" href="css/ie.css" />
+		<![endif]-->
 		<script src="js/jquery-1.7.1.min.js"></script>
 		<script src="js/jmpress.all.min.js"></script>
 		<script src="js/transformjs.1.0.beta.2.min.js"></script>
