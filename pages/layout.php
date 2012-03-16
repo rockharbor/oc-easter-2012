@@ -38,6 +38,7 @@
 	</head>
 	<body>
 		<nav>
+			<a href="/">Home</a>
 			<a href="about">About</a>
 			<a href="church-directory">Church Directory</a>
 			<a href="directions">Directions</a>
