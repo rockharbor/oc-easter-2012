@@ -43,6 +43,7 @@
 			<a href="directions">Directions</a>
 			<a href="kids">Kids</a>
 			<a href="what-to-expect">What To Expect</a>
+			<a href="why-we-celebrate">Why We Celebrate</a>
 		</nav>
 		<div id="wrapper">
 			<div id="content">
