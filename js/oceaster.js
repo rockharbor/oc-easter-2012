@@ -146,6 +146,23 @@
 		},
 		
 		/**
+		 * Shows phrases in the world step
+		 *
+		 * @return void
+		 */
+		showWorld: function() {
+			var delay = 3000;
+			$('.world').each(function(index) {
+				var el = $(this);
+				window.setTimeout(function() {
+					el.fadeIn(function() {
+						el.delay(2000).fadeOut();
+					});
+				}, delay*(index+1));
+			});
+		},
+		
+		/**
 		 * Shows the chains
 		 *
 		 * @return void

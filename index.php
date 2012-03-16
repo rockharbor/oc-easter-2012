@@ -100,11 +100,11 @@
 				</div>
 				<p style="display:inline">?</p>
 			</section>
-			<section class="step" data-z="3000" data-rotate-z="180" data-template="world">
-				<p>Centuries ago, Jesus came into this world.</p>
-				<p class="step">To restore hope.</p>
-				<p class="step">To renew life.</p>
-				<p class="step">So that we could know God.</p>
+			<section id="jesus" class="step" data-z="3000" data-rotate-z="180" data-enter-trigger="showWorld" data-next-delay="13000">
+				<p class="large">Centuries ago, <a href="#" class="next">Jesus</a> came into this world.</p>
+				<p class="world" style="position:absolute; left: 300px; top: 300px">To restore hope.</p>
+				<p class="world" style="position:absolute; left: -200px; top: -300px">To renew life.</p>
+				<p class="world" style="position:absolute; left: 300px; top: -200px">So that we could know God.</p>
 			</section>
 			<section id="everything-changes" class="step" data-z="5000" data-rotate-z="180">
 				<p>As we discover this Jesus, <a href="#" class="next">everything</a> changes.</p>

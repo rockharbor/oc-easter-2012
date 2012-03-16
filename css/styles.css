@@ -202,6 +202,7 @@ body {
 	color: #ffffff;
 }
 
+.world,
 .chain {
 	display: none;
 }
