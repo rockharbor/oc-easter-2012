@@ -202,6 +202,10 @@ body {
 	color: #ffffff;
 }
 
+.chain {
+	display: none;
+}
+
 /*= Animation keyframes
 **************************************************/
 @-webkit-keyframes blink {

@@ -146,6 +146,24 @@
 		},
 		
 		/**
+		 * Shows the chains
+		 *
+		 * @return void
+		 */
+		showChains: function() {
+			$('.chain').fadeIn();
+		},
+		
+		/**
+		 * Hides the chains
+		 *
+		 * @return void
+		 */
+		hideChains: function() {
+			$('.chain').fadeOut();
+		},
+		
+		/**
 		 * Cycles through words
 		 *
 		 * @param Element el The current step element
