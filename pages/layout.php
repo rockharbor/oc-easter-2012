@@ -5,7 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="title" content="OC Easter" />
 		<meta name="description" content="An Easter celebration of Jesus and His freedom at the OC Fairgrounds in Costa Mesa, California." />
-		<meta name="keywords" content="oc, orange county, easter, fairgrounds, francis chan, rockharbor, oc easter, pacific amphitheatre, freedom, jesus" />
+		<meta name="keywords" content="oc, orange county, easter, fairgrounds, francis chan, rockharbor, oc easter, pacific amphitheatre, freedom, jesus, oc fairgrounds" />
 		<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=yes" />
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/ie.css" />
@@ -38,6 +38,7 @@
 	</head>
 	<body>
 		<nav>
+			<img src="/img/logo.jpg" id="logo" />
 			<a href="/">Home</a>
 			<a href="about">About</a>
 			<a href="church-directory">Church Directory</a>

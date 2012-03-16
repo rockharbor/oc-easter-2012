@@ -3,7 +3,7 @@
 		<header>
 			<h1>Kids</h1>
 		</header>
-		<p>Easter at the Pacific Amphitheatre<br />
+		<p>Easter at the OC Fairgrounds<br />
 		Sunday, April 8<br />
 		9am &amp; 11:15am</p>
 		<p>Children&apos;s Ministry [birth – kindergarten] at both services.</p>

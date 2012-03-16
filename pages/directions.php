@@ -2,9 +2,9 @@
 	<article>
 		<header>
 			<h1>Directions</h1>
-			<h2>How do I get to the Pacific Amphitheatre?</h2>
+			<h2>How do I get to the OC Fairgrounds?</h2>
 		</header>
-		<p>The Pacific Amphitheatre is located in the Southwest corner of the OC Fair and Event Center, near the corner of Fair Drive and Fairview, at 100 Fair Drive, Costa Mesa.</p>
+		<p>The OC Fairgrounds is located in the Southwest corner of the OC Fair and Event Center, near the corner of Fair Drive and Fairview, at 100 Fair Drive, Costa Mesa.</p>
 		<p><strong>From Los Angeles:</strong> 405 Freeway South, exit at Fairview Road, turn right on Fairview, left on Fair Drive. Or the 5 Freeway South to the 55 Freeway South and exit at Del Mar/Fair Drive, turn right on Fair Drive.</p>
 		<p><strong>From Pasadena/San Gabriel Valley:</strong> Proceed to the 57 Freeway South (using the 210, 10 or 60 Freeways) to the 5 Freeway South to the 55 Freeway South and exit Del Mar/Fair Drive, turn right on Fair Drive.</p>
 		<p><strong>From LAX/Long Beach:</strong> 405 Freeway South, exit at Fairview Road, turn right on Fairview, left on Fair Drive.</p>

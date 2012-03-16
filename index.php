@@ -18,8 +18,7 @@ if (!empty($_GET['url'])) {
 		<meta charset="utf-8" />
 		<meta name="title" content="OC Easter" />
 		<meta name="description" content="An Easter celebration of Jesus and His freedom at the OC Fairgrounds in Costa Mesa, California." />
-		<meta name="keywords" content="oc, orange county, easter, fairgrounds, francis chan, rockharbor, oc easter, pacific amphitheatre, freedom, jesus" />
-		<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=yes" />
+		<meta name="keywords" content="oc, orange county, easter, fairgrounds, francis chan, rockharbor, oc easter, pacific amphitheatre, freedom, jesus, oc fairgrounds" />		<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=yes" />
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/basic-animations.css" />
 		<link rel="stylesheet" href="css/fonts.css" />
