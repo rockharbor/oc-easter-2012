@@ -121,6 +121,7 @@ body {
 	opacity: 0;
 }
 
+.step.visible,
 .step.active,
 .step.nested-active {
     opacity: 1;

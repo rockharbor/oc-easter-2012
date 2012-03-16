@@ -82,6 +82,12 @@
 				<p class="step large" data-background-opacity="92"><a href="#" class="next">Isolation</a></p>
 				<p class="step large" data-background-opacity="96"><a href="#" class="next">Apathy</a></p>
 			</section>
+			<section class="step visible" data-x="2300" data-z="-100" data-y="2200" data-exclude="true"><img src="/img/chain3.png" /></section>
+			<section class="step visible" data-x="1700" data-z="-300" data-y="2000" data-exclude="true"><img src="/img/chain4.png" /></section>
+			<section class="step visible" data-x="1600" data-z="100" data-y="1800" data-exclude="true"><img src="/img/chain3.png" /></section>
+			<section class="step visible" data-x="2100" data-z="-200" data-y="1800" data-exclude="true"><img src="/img/chain5.png" /></section>
+			<section class="step visible" data-x="2000" data-z="-500" data-y="2000" data-exclude="true"><img src="/img/chain2.png" /></section>
+			<section class="step visible" data-x="2000" data-z="-500" data-y="2000" data-exclude="true"><img src="/img/chain1.png" /></section>
 			<section id="live" class="step" data-x="2000" data-z="-1500" data-y="2000" data-rotate-z="180">
 				<p>Will we always <a href="#" class="next">live</a> with the chains?</p>
 			</section>
