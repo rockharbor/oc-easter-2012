@@ -201,6 +201,8 @@
 		 */
 		hideChains: function() {
 			$('.chain').detach();
+			$('#gloom').detach();
+			$('#chains').detach();
 		},
 		
 		/**
