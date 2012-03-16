@@ -145,6 +145,23 @@
 			});
 		},
 		
+		endStory: function() {
+			$('#menu-toggle').click();
+			
+			$(document).mousemove(function(event) {
+				var screenWidth = $(window).width();
+				var screenHeight = $(window).height();
+				
+				var xPos = -(event.pageX - (screenWidth / 2)) / screenWidth * 100;
+				var yPos = -(event.pageY - (screenHeight / 2)) / screenHeight * 100;
+				
+				$('.background').css({
+					backgroundPosition: (50 - xPos) + '% ' +(50 - yPos) + '%'
+				});
+				
+			});
+		},
+		
 		/**
 		 * Swaps background with a new, colorful happy background
 		 *

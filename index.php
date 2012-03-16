@@ -137,7 +137,7 @@
 					<p>Our purpose</p>
 				</div>
 			</section>
-			<section id="everything-is-new" class="light step" data-x="3000" data-y="-4000" data-z="6000" data-rotate-x="45" data-background-opacity="100">
+			<section id="everything-is-new" class="light step" data-x="3000" data-y="-4000" data-z="6000" data-rotate-x="45" data-background-opacity="100" data-enter-trigger="endStory">
 				<p class="large">Everything is new</p>
 			</section>
 		</div>
