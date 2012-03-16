@@ -1,3 +1,16 @@
+<?php
+if (!empty($_GET['url'])) {
+	$file = 'pages'.DIRECTORY_SEPARATOR.$_GET['url'].'.php';
+	if (!file_exists($file)) {
+		$file = 'pages'.DIRECTORY_SEPARATOR.'404.php';
+	}
+	ob_start();
+	include $file;
+	$content = ob_get_clean();
+	include 'pages'.DIRECTORY_SEPARATOR.'layout.php';
+	return;
+}
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -59,6 +72,7 @@
 				<![endif]-->
 			</div>
 			<div id="menu">
+				<a href="about">About</a>
 			</div>
 		</div>
 		<div id="wrapper">

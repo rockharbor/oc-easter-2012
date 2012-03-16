@@ -16,3 +16,8 @@
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     opacity: 1;
 }
+
+* html .clearfix,
+*:first-child+html .clearfix {
+	zoom: 1;
+}
