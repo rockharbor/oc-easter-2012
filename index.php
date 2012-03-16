@@ -35,6 +35,9 @@
 					keyboard: {
 						use: false
 					},
+					hash: {
+						use: false
+					},
 					mouse: {
 						clickSelects: false
 					},
