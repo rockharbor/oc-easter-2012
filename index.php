@@ -63,11 +63,11 @@ if (!empty($_GET['url'])) {
 		<div id="hint" class="clearfix">
 			<div id="menu">
 				<a href="about">About</a>
-				<a href="church-directory">Church Directory</a>
 				<a href="directions">Directions</a>
 				<a href="kids">Kids</a>
 				<a href="what-to-expect">What To Expect</a>
 				<a href="why-we-celebrate">Why We Celebrate</a>
+				<a href="church-directory">Church Directory</a>
 				<!--[if lte IE 10]>
 				<p class="note">This site uses new technologies. For the full experience, please consider viewing it in a browser such as Chrome or Safari.</p>
 				<![endif]-->

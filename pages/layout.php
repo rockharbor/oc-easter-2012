@@ -41,11 +41,11 @@
 			<img src="/img/logo.jpg" id="logo" />
 			<a href="/">Home</a>
 			<a href="about">About</a>
-			<a href="church-directory">Church Directory</a>
 			<a href="directions">Directions</a>
 			<a href="kids">Kids</a>
 			<a href="what-to-expect">What To Expect</a>
 			<a href="why-we-celebrate">Why We Celebrate</a>
+			<a href="church-directory">Church Directory</a>
 		</nav>
 		<div id="wrapper">
 			<div id="content">
