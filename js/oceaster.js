@@ -200,7 +200,7 @@
 		 * @return void
 		 */
 		hideChains: function() {
-			$('.chain').fadeOut();
+			$('.chain').detach();
 		},
 		
 		/**
