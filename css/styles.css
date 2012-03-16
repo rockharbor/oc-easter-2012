@@ -219,34 +219,34 @@ body {
 **************************************************/
 @-webkit-keyframes blink {
 	0% { 
-		color: rgba(0,0,0,1);
+		opacity: 1;
 	}
 	50% { 
-		color: rgba(0,0,0,.3);
+		opacity: .3;
 	}
 	100% { 
-		color: rgba(0,0,0,1);
+		opacity: 1;
 	}
 }
 @-moz-keyframes blink {
 	0% { 
-		color: rgba(0,0,0,1);
+		opacity: 1;
 	}
 	50% { 
-		color: rgba(0,0,0,.3);
+		opacity: .3;
 	}
 	100% { 
-		color: rgba(0,0,0,1);
+		opacity: 1;
 	}
 }
 @keyframes blink {
 	0% { 
-		color: rgba(0,0,0,1);
+		opacity: 1;
 	}
 	50% { 
-		color: rgba(0,0,0,.3);
+		opacity: .3;
 	}
 	100% { 
-		color: rgba(0,0,0,1);
+		opacity: 1;
 	}
 }
