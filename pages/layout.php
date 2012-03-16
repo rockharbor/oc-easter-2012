@@ -40,6 +40,7 @@
 		<nav>
 			<a href="about">About</a>
 			<a href="church-directory">Church Directory</a>
+			<a href="directions">Directions</a>
 		</nav>
 		<div id="wrapper">
 			<div id="content">
