@@ -304,7 +304,7 @@
 					rotateY: rotateY*Math.PI/180,
 					rotateZ: rotateZ*Math.PI/180,
 					opacity: 0
-				}, 4000, 'easeOutQuad');
+				}, 6000, 'easeOutQuad');
 				
 				$(this).css({
 					background: 'transparent'
