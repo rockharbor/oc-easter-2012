@@ -89,7 +89,7 @@
 			
 			// set up hint
 			if ($('#wrapper').jmpress('active').attr('id') == 'whathappens') {
-				$('#hint').delay(14000).slideDown();
+				$('#hint').delay(3000).slideDown();
 			} else {
 				$('#hint').slideDown();
 			}
@@ -97,16 +97,6 @@
 			// set up 'next' links
 			$('.next').click(function() {
 				$('#wrapper').jmpress('next');
-			});
-			
-			// set up menu toggle
-			$('#menu-toggle').click(function() {
-				if ($('#notes').is(':visible')) {
-					$('#menu-toggle').fadeOut();
-					$('#notes').fadeOut(function() {
-						$('#menu').fadeIn();
-					});
-				}
 			});
 		},
 		
@@ -146,8 +136,6 @@
 		},
 		
 		endStory: function() {
-			$('#menu-toggle').click();
-			
 			$(document).mousemove(function(event) {
 				var screenWidth = $(window).width();
 				var screenHeight = $(window).height();

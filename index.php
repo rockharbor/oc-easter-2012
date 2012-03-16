@@ -62,25 +62,22 @@ if (!empty($_GET['url'])) {
 	</head>
 	<body>
 		<div id="hint" class="clearfix">
-			<div id="menu-toggle">
-				<p>Menu</p>
-			</div>
-			<div id="notes">
-				<p>I want to take you on a journey. Click on the colors to advance.</p>
-				<!--[if lte IE 10]>
-				<p class="note">This site uses new technologies. For the full experience, please consider viewing this site in a browser such as Chrome or Safari.</p>
-				<![endif]-->
-			</div>
 			<div id="menu">
 				<a href="about">About</a>
 				<a href="church-directory">Church Directory</a>
 				<a href="directions">Directions</a>
 				<a href="kids">Kids</a>
 				<a href="what-to-expect">What To Expect</a>
-			<a href="why-we-celebrate">Why We Celebrate</a>
+				<a href="why-we-celebrate">Why We Celebrate</a>
+				<!--[if lte IE 10]>
+				<p class="note">This site uses new technologies. For the full experience, please consider viewing it in a browser such as Chrome or Safari.</p>
+				<![endif]-->
 			</div>
 		</div>
 		<div id="wrapper">
+			<section id="whathappens" class="darktext step" data-z="1000" data-background-opacity="1">
+				<p>Welcome to oceaster.com. Click the <a class="next" href="#">colors</a> to continue.</p>
+			</section>
 			<section id="whathappens" class="darktext step" data-background-opacity="1" data-next-delay="12000">
 				<p>What happens when things don&apos;t turn out as we hoped?</p>
 				<p data-jmpress="drive-right after 4s step">When the job we thought would bring us life instead brings anxiety?</p>
