@@ -153,17 +153,26 @@
 		 * @return void
 		 */
 		startCycle: function(el, evt, child) {
+			var delay = 1500;
+			if ($(el).data('cycle-speed')) {
+				delay = $(el).data('cycle-speed');
+			}
+			if (child === undefined) {
+				// start the initial quickly
+				delay = 1000;
+			}
 			var children = $(el).children('.cycle').children();
 			if (child === undefined || child == children.length) {
 				child = 0;
 			}
-			$(el).children('.cycle').delay(1000).animate({
+			$(el).children('.cycle').stop().animate({
 				scrollTop: $(children[child]).position().top
-			}, 200, function() {
-				if ($.oceaster.onStep(el)) {
+			}, 200);
+			if ($.oceaster.onStep(el)) {
+				window.setTimeout(function() {
 					$.oceaster.startCycle(el, evt, child+1);
-				}
-			});
+				}, delay);
+			}
 		},
 		
 		/**
