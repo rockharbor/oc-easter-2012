@@ -94,7 +94,7 @@ if (!empty($_GET['url'])) {
 			<section id="life" class="step" data-x="1000" data-z="-500" data-y="1000" data-rotate-x="90" data-background-opacity="60">
 				<p class="large">Life has become increasingly <a href="#" class="next">grim</a>.</p>
 			</section>
-			<section id="chains" class="step" data-x="1000" data-y="2000" data-background-opacity="80">
+			<section id="chains" class="step" data-x="1000" data-y="2000" data-background-opacity="80" data-enter-trigger="hideShards">
 				<p>Not knowing how to respond, we often <a href="#" class="next">fall</a> into the trap of piling chains upon chains.</p>
 			</section>
 			<section id="gloom" class="step" data-x="2000" data-y="2000" data-template="chains" data-background-opacity="80" data-pre-enter-trigger="showChains">

@@ -177,6 +177,15 @@
 		},
 		
 		/**
+		 * Hides the shards
+		 *
+		 * @return void
+		 */
+		hideShards: function() {
+			$('.shard').detach();
+		},
+		
+		/**
 		 * Shows the chains
 		 *
 		 * @return void
