@@ -163,12 +163,20 @@ nav {
 #content header {
 	padding-top: 20px;
 	
-	font: 35px/40px 'UniversLTStd57Condensed', Helvetica, Arial, sans-serif;
+	font: 30px/35px 'UniversLTStd57Condensed', Helvetica, Arial, sans-serif;
 	font-weight: bold;
 }
 
+#content header h2 {
+	font: 15px;
+	line-height: 18px;
+	font-weight: normal;
+	
+	border: none;
+}
+
 #content section {
-	font: 18px/23px Helvetica, Arial, sans-serif;
+	font: 12px/15px Helvetica, Arial, sans-serif;
 }
 
 #content article p {
@@ -189,6 +197,8 @@ nav {
 }
 
 h2 {
+	font-size: 15px;
+	
 	padding: 10px 0;
 	
 	border-bottom: 1px solid #ccc;

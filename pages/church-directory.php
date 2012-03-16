@@ -2,8 +2,8 @@
 	<article>
 		<header>
 			<h1>Church Directory</h1>
+			<h2>Following Jesus is not intended to be done in isolation. After celebrating Easter together, we encourage you to find<br/> a church in your local neighborhood. Worship together. Celebrate together. Walk with Jesus together. </h2>
 		</header>
-		<p>Following Jesus is not intended to be done in isolation. After celebrating Easter together, we encourage you to find a church in your local neighborhood. Worship together. Celebrate together. Walk with Jesus together. </p>
 		<p>Check out this list of great churches in Orange and L.A. counties:</p>
 		<div class="clearfix">
 			<div style="float: left;width: 47%;padding-right: 10px">
