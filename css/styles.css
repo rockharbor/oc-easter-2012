@@ -235,10 +235,6 @@ h2 {
 	height: 30px;
 }
 
-.cycle p:first-child {
-	top: 0;
-}
-
 /*= Shatter effect
 **************************************************/
 #shatter {
