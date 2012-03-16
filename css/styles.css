@@ -184,6 +184,16 @@ nav {
 	text-decoration: underline;
 }
 
+.church {
+	margin: 30px 0;
+}
+
+h2 {
+	padding: 10px 0;
+	
+	border-bottom: 1px solid #ccc;
+}
+
 /*= Background
 **************************************************/
 .background {
