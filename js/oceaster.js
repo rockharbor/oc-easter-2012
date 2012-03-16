@@ -151,10 +151,7 @@
 		 * @return void
 		 */
 		swapBackground: function() {
-			$('.background').css({
-				backgroundImage: 'url(/img/background.jpg)',
-				backgroundSize: '100% 100%'
-			});
+			$('.background').addClass('purdy');
 		},
 		
 		/**
