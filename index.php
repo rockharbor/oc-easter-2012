@@ -62,6 +62,7 @@ if (!empty($_GET['url'])) {
 	<body>
 		<div id="hint" class="clearfix">
 			<div id="menu">
+				<img src="/img/logo.jpg" id="logo" />
 				<a href="about">About</a>
 				<a href="directions">Directions</a>
 				<a href="kids">Kids</a>
