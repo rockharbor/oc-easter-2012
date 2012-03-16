@@ -85,10 +85,14 @@
 			<section id="live" class="step" data-x="2000" data-z="-1500" data-y="2000" data-rotate-z="180">
 				<p>Will we always <a href="#" class="next">live</a> with the chains?</p>
 			</section>
-			<section class="step" data-x="1000" data-z="-1500" data-y="2000" data-rotate-z="180">
+			<section id="dawn" class="step" data-x="1000" data-z="-1500" data-y="2000" data-rotate-z="180" data-enter-trigger="startCycle" data-exit-trigger="endCycle" data-cycle-speed="5000">
 				<p>Or can tomorrow&apos;s dawn really bring...</p>
-				<p>A different day?</p>
-				<p>A different us?</p>
+				<p style="display:inline">A different</p>
+				<div class="cycle" style="display:inline-block; width: 40px; vertical-align: top;">
+					<p><a href="#" class="next">day</a></p>
+					<p><a href="#" class="next">us</a></p>
+				</div>
+				<p style="display:inline">?</p>
 			</section>
 			<section class="step" data-z="3000" data-rotate-z="180" data-template="world">
 				<p>Centuries ago, Jesus came into this world.</p>
