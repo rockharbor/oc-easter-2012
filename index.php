@@ -118,10 +118,10 @@
 			<section id="different-life" class="light step" data-x="3000" data-y="-4000">
 				<p>But more than that, free to <a href="#" class="next blue">grab hold</a> of an entirely different life.</p>
 			</section>
-			<section class="light step" data-x="3000" data-y="-4000" data-z="3000">
-				<p>Because Jesus didn&apos;t come just to remove our chains.
-				He came to replace them entirely.
-				He came so that we could have life and have it to the full.</p>
+			<section id="full-life" class="light step" data-x="3000" data-y="-4000" data-z="3000" data-next-delay="10000">
+				<p>Because Jesus didn&apos;t come just to remove our chains.</p>
+				<p data-jmpress="zoom after 4s step">He came to replace them entirely.</p>
+				<p data-jmpress="zoom after 4s prev">He came so that we could have life and have it to the <a href="#" class="next">full</a>.</p>
 			</section>
 			<section class="light step" data-x="3000" data-y="-4000" data-z="5000" data-enter-trigger="startCycle" data-exit-trigger="endCycle">
 				<p>How we view</p>

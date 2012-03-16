@@ -207,6 +207,10 @@ body {
 	display: none;
 }
 
+#full-life {
+	width: 700px;
+}
+
 /*= Animation keyframes
 **************************************************/
 @-webkit-keyframes blink {
