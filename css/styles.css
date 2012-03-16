@@ -261,9 +261,21 @@ h2 {
 	width: 900px;
 }
 
-#everything-is-new p {
+#everything-is-new p.large {
 	font-size: 72px;
+	line-height: 80px;
 	text-transform: uppercase;
+	color: #ffffff;
+	
+	margin-bottom: 10px;
+}
+
+#everything-is-new a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#everything-is-new p {
 	color: #ffffff;
 }
 

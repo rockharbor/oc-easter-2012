@@ -162,6 +162,10 @@ if (!empty($_GET['url'])) {
 			</section>
 			<section id="everything-is-new" class="light step" data-x="3000" data-y="-4000" data-z="6000" data-rotate-x="45" data-background-opacity="100" data-enter-trigger="endStory">
 				<p class="large">Everything is new</p>
+				<p data-jmpress="fade after 2s step">Easter at the OC Fairgrounds</p>
+				<p data-jmpress="fade after 1s prev">with Francis Chan</p>
+				<p data-jmpress="fade after 1s prev">Sunday, April 8, 9am &amp; 11:15am</p>
+				<p data-jmpress="fade after 1s prev"><a href="about">Click here</a> for details.</p>
 			</section>
 		</div>
 		<div id="shatter">
