@@ -50,10 +50,10 @@ Sundays | 9am, 11am, 7pm, 9pm
 	<div class="church"><h3><strong>ROCK</strong>HARBOR Fullerton</h3>
 	<p>714-384-0914<br />
 		<a target="_blank" class="button" href="http://fullerton.rockharbor.org">fullerton.rockharbor.org</a></p>
-	<p>Pacific Auditorium @ Hope International University<br />
-2500 Nutwood Ave., Fullerton
+	<p>102 Bradford Ave<br />
+Placentia
 </p>
-	<p>Sundays | 5pm &amp; 7:30pm</p>
+	<p>Sundays | 9am, 11am, 7pm</p>
 	</div>
 	<h2>Huntington Beach</h2>
 	<div class="church"><h3>Mariners Huntington Beach</h3>
@@ -62,15 +62,15 @@ Sundays | 9am, 11am, 7pm, 9pm
 	<p>Golden West College Theatre Building<br />
 15744 Goldenwest St., Huntington Beach
 </p>
-	<p>Sundays | 9:30am</p>
+	<p>Sundays | 9am, 11am</p>
 	</div>
 	<div class="church"><h3><strong>ROCK</strong>HARBOR Huntington Beach</h3>
 	<p>714-384-0914<br />
-		<a target="_blank" class="button" href="http://www.rockharbor.org">www.rockharbor.org</a></p>
+		<a target="_blank" class="button" href="http://huntingtonbeach.rockharbor.org">huntingtonbeach.rockharbor.org</a></p>
 	<p>Rodgers Senior Center<br />
 1706 Orange Ave., Huntington Beach
 </p>
-	<p>Sundays | 10am</p>
+	<p>Sundays | 9am, 11am</p>
 	</div>
 	<h2>Irvine</h2>
 	<div class="church"><h3>Mariners</h3>
@@ -100,17 +100,16 @@ Sundays | 9am &amp; 11am</p>
 3817 Viewpark, Irvine</p>
 	<p>Sundays | 10am</p>
 </div>
-	<h2>Laguna Hills</h2>
-	<div class="church"><h3><strong>ROCK</strong>HARBOR South County</h3>
-	<p>714-384-0914<br />
-		<a target="_blank" class="button" href="http://southcounty.rockharbor.org">southcounty.rockharbor.org</a>
-	</p>
-	<p>Laguna Hills High School<br />
-25401 Paseo De Valencia, Laguna Hills
-</p>
-	<p>Sundays | 10am</p>
-	</div>
 	<h2>Mission Viejo</h2>
+	<div class="church"><h3><strong>ROCK</strong>HARBOR Mission Viejo</h3>
+	<p>714-384-0914<br />
+		<a target="_blank" class="button" href="http://missionviejo.rockharbor.org">missionviejo.rockharbor.org</a>
+	</p>
+	<p>Los Alisos Intermediate School<br />
+25171 Moor Ave, Mission Viejo
+</p>
+	<p>Sundays | 9am, 11am</p>
+	</div>
 	<div class="church"><h3>Mariners Mission Viejo</h3>
 	<p>949-769-8100<br />
 		<a target="_blank" class="button" href="http://www.marinerschurch.org">www.marinerschurch.org</a>
@@ -119,6 +118,15 @@ Sundays | 9am &amp; 11am</p>
 	<p>Saturdays | 5pm<br />Sundays | 9am &amp; 11am </p>
 	</div>
 	<h2>Orange</h2>
+	<div class="church"><h3><strong>ROCK</strong>HARBOR Orange</h3>
+	<p>714-384-0914<br />
+		<a target="_blank" class="button" href="http://orange.rockharbor.org">orange.rockharbor.org</a>
+	</p>
+	<p>Orange High School<br />
+525 North Shaffer Street, Orange
+</p>
+	<p>Sundays | 10am</p>
+	</div>
 	<div class="church"><h3>Beacon Church</h3>
 	<p>714-564-1601<br />
 		<a target="_blank" class="button" href="http://www.thebeaconoc.org">www.thebeaconoc.org</a></p>
@@ -126,10 +134,6 @@ Sundays | 9am &amp; 11am</p>
 3920 Spring St., Orange
 </p>
 	<p>Sundays | 10:05am</p>
-	</div>
-	<div class="church"><h3>Mars Hill Orange County</h3>
-	<p><a target="_blank" class="button" href="http://www.marshillchurch.org">www.marshillchurch.org</a></p>
-	<p>Sunday Gathering Times &amp; Locations TBD</p>
 	</div>
 	<h2>Yorba Linda</h2>
 	<div class="church"><h3>Yorba Linda Friends</h3>
@@ -148,7 +152,7 @@ Sundays | 9am &amp; 10:45am
 	<div class="church"><h3>The Garden</h3>
 	<p><a target="_blank" class="button" href="http://www.thegardenlb.org">www.thegardenlb.org</a></p>
 	<p>Cohiba Night Club<br />110 E. Broadway, Long Beach</p>
-	<p>Sundays | 10am</p>
+	<p>Sundays | 9am, 11am</p>
 	</div>
 	<div class="church"><h3>Grace Brethren</h3>
 	<p>562-595-6881<br />
