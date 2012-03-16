@@ -81,7 +81,7 @@ if (!empty($_GET['url'])) {
 				<p>What happens when things don&apos;t turn out as we hoped?</p>
 				<p data-jmpress="drive-right after 4s step">When the job we thought would bring us life instead brings anxiety?</p>
 				<p data-jmpress="drive-right after 4s prev">When the relationship we expected to fulfill us instead brings fear?</p>
-				<p data-jmpress="drive-right after 4s prev">When the future that once looked so clear instead brings rejection<a href="#" class="next blue">?</a></p>
+				<p data-jmpress="drive-right after 4s prev">When the future that once looked so clear instead brings <a href="#" class="next blue">rejection</a>?</p>
 			</section>
 			<section class="shard step visible" data-x="-500" data-y="-400" data-z="-500" data-exclude="true"><img src="/img/shard1.png" /></section>
 			<section class="shard step visible" data-x="800" data-y="350" data-z="-1200" data-exclude="true"><img src="/img/shard2.png" /></section>
