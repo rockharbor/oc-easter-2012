@@ -41,6 +41,7 @@
 			<a href="about">About</a>
 			<a href="church-directory">Church Directory</a>
 			<a href="directions">Directions</a>
+			<a href="kids">Kids</a>
 		</nav>
 		<div id="wrapper">
 			<div id="content">

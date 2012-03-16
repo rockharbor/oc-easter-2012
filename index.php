@@ -75,6 +75,7 @@ if (!empty($_GET['url'])) {
 				<a href="about">About</a>
 				<a href="church-directory">Church Directory</a>
 				<a href="directions">Directions</a>
+				<a href="kids">Kids</a>
 			</div>
 		</div>
 		<div id="wrapper">
