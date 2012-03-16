@@ -112,7 +112,7 @@
 			<section id="free" class="step" data-z="5000" data-rotate-z="180" data-pre-enter-trigger="setupShatter" data-enter-trigger="shatter" data-exit-trigger="putBackTogether">
 				<p class="large"><a href="#" class="next">We are free</a></p>
 			</section>
-			<section id="free-from-chains" class="light step" data-z="3000" data-y="-2000">
+			<section id="free-from-chains" class="light step" data-z="3000" data-y="-2000" data-exit-trigger="swapBackground" data-background-opacity="0">
 				<p>Free from the chains that bound <a href="#" class="next blue">us</a>.</p>
 			</section>
 			<section id="different-life" class="light step" data-x="3000" data-y="-4000">

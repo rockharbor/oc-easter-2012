@@ -146,6 +146,18 @@
 		},
 		
 		/**
+		 * Swaps background with a new, colorful happy background
+		 *
+		 * @return void
+		 */
+		swapBackground: function() {
+			$('.background').css({
+				backgroundImage: 'url(/img/background.jpg)',
+				backgroundSize: '100% 100%'
+			});
+		},
+		
+		/**
 		 * Shows phrases in the world step
 		 *
 		 * @return void
