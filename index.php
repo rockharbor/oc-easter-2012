@@ -115,16 +115,16 @@
 			<section id="free-from-chains" class="light step" data-z="3000" data-y="-2000" data-exit-trigger="swapBackground" data-background-opacity="0">
 				<p>Free from the chains that bound <a href="#" class="next blue">us</a>.</p>
 			</section>
-			<section id="different-life" class="light step" data-x="3000" data-y="-4000">
+			<section id="different-life" class="light step" data-x="3000" data-y="-4000" data-background-opacity="5">
 				<p>But more than that, free to <a href="#" class="next blue">grab hold</a> of an entirely different life.</p>
 			</section>
-			<section id="full-life" class="light step" data-x="3000" data-y="-4000" data-z="3000" data-next-delay="10000">
+			<section id="full-life" class="light step" data-x="3000" data-y="-4000" data-z="3000" data-next-delay="10000" data-background-opacity="15">
 				<p>Because Jesus didn&apos;t come just to remove our chains.</p>
 				<p data-jmpress="zoom after 4s step">He came to replace them entirely.</p>
 				<p data-jmpress="zoom after 4s prev">He came so that we could have life and have it to the <a href="#" class="next">full</a>.</p>
 			</section>
-			<section class="light step" data-x="3000" data-y="-4000" data-z="5000" data-enter-trigger="startCycle" data-exit-trigger="endCycle">
-				<p>How we view</p>
+			<section id="view" class="light step" data-x="3000" data-y="-4000" data-z="5000" data-enter-trigger="startCycle" data-exit-trigger="endCycle" data-next-delay="8000" data-background-opacity="25">
+				<p>How we <a href="#" class="next blue">view</a></p>
 				<div class="cycle">
 					<p>Ourselves</p>
 					<p>Others</p>
@@ -137,8 +137,8 @@
 					<p>Our purpose</p>
 				</div>
 			</section>
-			<section class="light step" data-z="10000">
-				<p>Everything is new.</p>
+			<section id="everything-is-new" class="light step" data-x="3000" data-y="-4000" data-z="6000" data-rotate-x="45" data-background-opacity="100">
+				<p class="large">Everything is new</p>
 			</section>
 		</div>
 		<div id="shatter">
