@@ -87,6 +87,10 @@ if (!empty($_GET['url'])) {
 				<p data-jmpress="drive-right after 4s prev">When the relationship we expected to fulfill us instead brings fear?</p>
 				<p data-jmpress="drive-right after 4s prev">When the future that once looked so clear instead brings rejection<a href="#" class="next blue">?</a></p>
 			</section>
+			<section class="shard step visible" data-x="-500" data-y="-400" data-z="-500" data-exclude="true"><img src="/img/shard1.png" /></section>
+			<section class="shard step visible" data-x="800" data-y="350" data-z="-1200" data-exclude="true"><img src="/img/shard2.png" /></section>
+			<section class="shard step visible" data-x="1400" data-y="-1000" data-z="-2000" data-exclude="true"><img src="/img/shard3.png" /></section>
+			<section class="shard step visible" data-x="2000" data-y="0" data-z="-1000" data-exclude="true"><img src="/img/shard6.png" /></section>
 			<section id="turnaround" class="step" data-x="1000" data-background-opacity="40">
 				<p>Each disappointment robs our joy.</p>
 				<p>Until one day we <a href="#" class="next blue">turn</a> around and realize...</p>
