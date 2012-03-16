@@ -98,6 +98,7 @@ nav {
 	width: 500px;
 	padding: 20px;
 	display: block;
+	z-index: 1;
 	
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -121,6 +122,11 @@ nav {
 .step.active,
 .step.nested-active {
     opacity: 1;
+}
+
+.step.nested-active,
+.step.active {
+	z-index: 10;
 }
 
 .light.step {

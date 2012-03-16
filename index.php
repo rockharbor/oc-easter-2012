@@ -94,10 +94,10 @@ if (!empty($_GET['url'])) {
 			<section id="life" class="step" data-x="1000" data-z="-500" data-y="1000" data-rotate-x="90" data-background-opacity="60">
 				<p class="large">Life has become increasingly <a href="#" class="next">grim</a>.</p>
 			</section>
-			<section id="chains" class="step" data-x="1000" data-z="-100" data-y="2000" data-background-opacity="80">
+			<section id="chains" class="step" data-x="1000" data-y="2000" data-background-opacity="80">
 				<p>Not knowing how to respond, we often <a href="#" class="next">fall</a> into the trap of piling chains upon chains.</p>
 			</section>
-			<section id="gloom" class="step" data-x="2000" data-z="-100" data-y="2000" data-template="chains" data-background-opacity="80" data-pre-enter-trigger="showChains">
+			<section id="gloom" class="step" data-x="2000" data-y="2000" data-template="chains" data-background-opacity="80" data-pre-enter-trigger="showChains">
 				<p>But we only add to the <a href="#" class="next">gloom</a> when we reach for things that could never set us free.</p>
 				<p class="step large" data-background-opacity="84"><a href="#" class="next">Escapism</a></p>
 				<p class="step large" data-background-opacity="88"><a href="#" class="next">Busyness</a></p>
@@ -105,15 +105,15 @@ if (!empty($_GET['url'])) {
 				<p class="step large" data-background-opacity="96"><a href="#" class="next">Apathy</a></p>
 			</section>
 			<section class="chain step visible" data-x="2300" data-z="-100" data-y="2200" data-exclude="true"><img src="/img/chain3.png" /></section>
-			<section class="chain step visible" data-x="1700" data-z="-300" data-y="2000" data-exclude="true"><img src="/img/chain4.png" /></section>
-			<section class="chain step visible" data-x="1600" data-z="100" data-y="1800" data-exclude="true"><img src="/img/chain3.png" /></section>
-			<section class="chain step visible" data-x="2100" data-z="-200" data-y="1800" data-exclude="true"><img src="/img/chain5.png" /></section>
-			<section class="chain step visible" data-x="2000" data-z="-500" data-y="2000" data-exclude="true"><img src="/img/chain2.png" /></section>
-			<section class="chain step visible" data-x="2000" data-z="-500" data-y="2000" data-exclude="true"><img src="/img/chain1.png" /></section>
-			<section id="live" class="step" data-x="2000" data-z="-1500" data-y="2000" data-rotate-z="180" data-enter-trigger="hideChains">
+			<section class="chain step visible" data-x="1700" data-z="-200" data-y="2000" data-exclude="true"><img src="/img/chain4.png" /></section>
+			<section class="chain step visible" data-x="1600" data-z="-100" data-y="1800" data-exclude="true"><img src="/img/chain3.png" /></section>
+			<section class="chain step visible" data-x="2100" data-z="-150" data-y="1800" data-exclude="true"><img src="/img/chain5.png" /></section>
+			<section class="chain step visible" data-x="2000" data-z="-250" data-y="2000" data-exclude="true"><img src="/img/chain2.png" /></section>
+			<section class="chain step visible" data-x="2000" data-z="-250" data-y="2000" data-exclude="true"><img src="/img/chain1.png" /></section>
+			<section id="live" class="step" data-x="2000" data-z="-900" data-y="2000" data-rotate-z="180" data-enter-trigger="hideChains">
 				<p>Will we always <a href="#" class="next">live</a> with the chains?</p>
 			</section>
-			<section id="dawn" class="step" data-x="1000" data-z="-1500" data-y="2000" data-rotate-z="180" data-enter-trigger="startCycle" data-exit-trigger="endCycle" data-cycle-speed="5000">
+			<section id="dawn" class="step" data-x="1000" data-z="-900" data-y="2000" data-rotate-z="180" data-enter-trigger="startCycle" data-exit-trigger="endCycle" data-cycle-speed="5000">
 				<p>Or can tomorrow&apos;s dawn really bring...</p>
 				<p style="display:inline">A different</p>
 				<div class="cycle" style="display:inline-block; width: 40px; vertical-align: top;">
