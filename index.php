@@ -1,4 +1,30 @@
 <?php
+$mobileUA = array(
+	'Android',
+	'AvantGo',
+	'BlackBerry',
+	'DoCoMo',
+	'iPod',
+	'iPhone',
+	'J2ME',
+	'MIDP',
+	'NetFront',
+	'Nokia',
+	'Opera Mini',
+	'Opera Mobi',
+	'PalmOS',
+	'PalmSource',
+	'portalmmm',
+	'Plucker',
+	'ReqwirelessWeb',
+	'SonyEricsson',
+	'Symbian',
+	'UP\.Browser',
+	'webOS',
+	'Windows CE',
+	'Xiino'
+);
+
 if (!empty($_GET['url'])) {
 	$file = 'pages'.DIRECTORY_SEPARATOR.$_GET['url'].'.php';
 	if (!file_exists($file)) {
@@ -6,6 +32,13 @@ if (!empty($_GET['url'])) {
 	}
 	ob_start();
 	include $file;
+	$content = ob_get_clean();
+	include 'pages'.DIRECTORY_SEPARATOR.'layout.php';
+	return;
+} else if (preg_match('/'.implode('|', $mobileUA).'/i', $_SERVER['HTTP_USER_AGENT'])) {
+	ob_start();
+	$showLogo = false;
+	include 'pages'.DIRECTORY_SEPARATOR.'mobile.php';
 	$content = ob_get_clean();
 	include 'pages'.DIRECTORY_SEPARATOR.'layout.php';
 	return;

@@ -1,3 +1,8 @@
+<?php
+if (!isset($showLogo)) {
+	$showLogo = true;
+}
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -11,7 +16,9 @@
 		<link rel="stylesheet" href="css/ie.css" />
 		<link rel="stylesheet" href="css/fonts.css" />
 		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 480px)" />
 		<script src="js/jquery-1.7.1.min.js"></script>
+		<script src="js/jquery.fitvids.js"></script>
 		<script>
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-7415608-5']);
@@ -34,11 +41,14 @@
 				});
 				
 			});
+			$(document).ready(function() {
+				$('#content').fitVids();
+			});
 		</script>
 	</head>
 	<body>
 		<nav>
-			<img src="/img/logo.jpg" id="logo" />
+			<?php if ($showLogo): ?><img src="/img/logo.jpg" id="logo" /><?php endif; ?>
 			<a href="/">Home</a>
 			<a href="about">About</a>
 			<a href="directions">Directions</a>

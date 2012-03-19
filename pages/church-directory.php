@@ -6,7 +6,7 @@
 		</header>
 		<p>Check out this list of great churches in Orange and L.A. counties:</p>
 		<div class="clearfix">
-			<div style="float: left;width: 47%;padding-right: 10px">
+			<div class="directory-column">
 				<h2 style="display: block; margin-bottom: 10px;text-align: center;">Orange County</h2>
 				<h2>Brea</h2>
 	<div class="church"><h3>Southlands Church International</h3>
@@ -145,7 +145,7 @@ Sundays | 9am &amp; 10:45am
 </p>
 	</div>
 			</div>
-			<div style="float: left;width: 47%;padding-left: 10px">
+			<div class="directory-column">
 	
 	<h2 style="display: block; margin-bottom: 10px;text-align: center;">Los Angeles County</h2>
 	<h2>Long Beach</h2>

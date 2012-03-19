@@ -199,6 +199,12 @@ h2 {
 	border-bottom: 1px solid #ccc;
 }
 
+.directory-column {
+	width: 46%;
+	padding: 0 2%;
+	float: left;
+}
+
 /*= Background
 **************************************************/
 .background {
