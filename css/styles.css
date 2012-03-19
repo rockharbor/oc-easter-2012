@@ -205,6 +205,13 @@ h2 {
 	float: left;
 }
 
+.video {
+	width: 48%;
+	margin: 0 1%;
+	float: left;
+	margin-bottom: 20px;
+}
+
 /*= Background
 **************************************************/
 .background {
