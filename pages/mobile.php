@@ -2,7 +2,7 @@
 	<article>
 		<img src="/img/logo.jpg" />
 		<div>
-			<p class="large">At The OC Fairgrounds in Costa Mesa</p>
+			<p class="large">Easter At The OC Fairgrounds</p>
 			<p class="universe">With Francis Chan<br />
 			Sunday, April 8<br />
 			9am & 11:15am<br /></p>
