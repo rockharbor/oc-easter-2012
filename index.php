@@ -22,6 +22,7 @@ $mobileUA = array(
 	'UP\.Browser',
 	'webOS',
 	'Windows CE',
+	'Windows Phone',
 	'Xiino'
 );
 
