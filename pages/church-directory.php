@@ -12,7 +12,7 @@
 	<div class="church"><h3>Southlands Church International</h3>
 	<p>714-982-5055<br />
 		<a target="_blank" class="button" href="http://www.southlands.net">www.southlands.net</a></p>
-	<p>2590 E. Imperial Hwy., Brea</p>
+	<p>2950 E. Imperial Hwy., Brea</p>
 	<p>Sundays | 9am &amp; 11am</p>
 	</div>
 	<h2>Costa Mesa</h2>
@@ -21,7 +21,7 @@
 		<a target="_blank" class="button" href="http://www.thecrossing.com">www.thecrossing.com</a></p>
 	<p>2115 Newport Blvd., Costa Mesa</p>
 	<p>Saturdays | 5:30 pm<br />
-Sundays | 8:30am, 9:30am, 10am, 11am &amp; 11:30am
+Sundays | 9:15am &amp; 11:15am
 </p>
 	</div>
 	<div class="church"><h3>Newport Mesa Church</h3>
@@ -29,6 +29,13 @@ Sundays | 8:30am, 9:30am, 10am, 11am &amp; 11:30am
 		<a target="_blank" class="button" href="http://www.newportmesa.org">www.newportmesa.org</a></p>
 	<p>2599 Newport Blvd., Costa Mesa</p>
 	<p>Sundays | 9am &amp; 11am</p>
+	</div>
+	<div class="church"><h3>Redemption Church</h3>
+	<p>949-607-8095<br />
+		<a target="_blank" class="button" href="http://www.redemptionchurch.org">www.redemptionchurch.org</a></p>
+	<p>Back Bay High School<br />
+		390 Monte Vista Dr., Costa Mesa</p>
+	<p>Sundays | 10am</p>
 	</div>
 	<div class="church"><h3><strong>ROCK</strong>HARBOR Central</h3>
 	<p>714-384-0914<br />
@@ -53,7 +60,7 @@ Sundays | 9am, 11am, 7pm, 9pm
 	<p>102 Bradford Ave<br />
 Placentia
 </p>
-	<p>Sundays | 9am, 11am, 7pm</p>
+	<p>Sundays | 10am, 7pm</p>
 	</div>
 	<h2>Huntington Beach</h2>
 	<div class="church"><h3>Mariners Huntington Beach</h3>
@@ -62,7 +69,7 @@ Placentia
 	<p>Golden West College Theatre Building<br />
 15744 Goldenwest St., Huntington Beach
 </p>
-	<p>Sundays | 9am, 11am</p>
+	<p>Sundays | 9:30am</p>
 	</div>
 	<div class="church"><h3><strong>ROCK</strong>HARBOR Huntington Beach</h3>
 	<p>714-384-0914<br />
@@ -78,20 +85,21 @@ Placentia
 		<a target="_blank" class="button" href="http://www.marinerschurch.org">www.marinerschurch.org</a></p>
 	<p>5001 Newport Coast Dr., Irvine</p>
 	<p>Saturdays | 5pm<br />
-Sundays | 9am &amp; 11am</p>
+Sundays | 9am &amp; 11am in Chapel<br />
+Sundays | 7pm in Community Center</p>
 	</div>
 	<div class="church"><h3>Moment</h3>
-	<p>949-385-3373<br />
+	<p>714-646-6787<br />
 		<a target="_blank" class="button" href="http://momentchurch.com">momentchurch.com</a></p>
-	<p>18842 Teller Ave., Irvine</p>
-	<p>Sundays | 6pm</p>
+	<p>2700 Pioneer Rd, Tustin</p>
+	<p>Sundays | 9:30am &amp; 11:15am</p>
 	</div>
 	<div class="church"><h3>New Song Irvine</h3>
 	<p>949-477-0700<br />
 		<a target="_blank" class="button" href="http://irvine.newsong.net">irvine.newsong.net</a>
 	</p>
 	<p>18842 Teller Ave., Irvine</p>
-	<p>Sundays | 8:45am, 10:15am, &amp; 11:30am</p>
+	<p>Sundays | 9am &amp; 10:45am</p>
 	</div>
 	<div class="church"><h3>Pathways Church</h3>
 	<p>714-543-4400<br />
@@ -128,7 +136,7 @@ Sundays | 9am &amp; 11am</p>
 	<p>Sundays | 10am</p>
 	</div>
 	<div class="church"><h3>Beacon Church</h3>
-	<p>714-564-1601<br />
+	<p>714-633-3351<br />
 		<a target="_blank" class="button" href="http://www.thebeaconoc.org">www.thebeaconoc.org</a></p>
 	<p>El Modena High School<br />
 3920 Spring St., Orange
@@ -139,7 +147,7 @@ Sundays | 9am &amp; 11am</p>
 	<div class="church"><h3>Yorba Linda Friends</h3>
 	<p>714-777-2875<br />
 		<a target="_blank" class="button" href="http://www.friendschurchyl.com">www.friendschurchyl.com</a></p>
-	<p>5141 Lakeview Ave., Yorba Linda</p>
+	<p>5211 Lakeview Ave., Yorba Linda</p>
 	<p>Saturdays | 6pm <br />
 Sundays | 9am &amp; 10:45am
 </p>
@@ -157,15 +165,15 @@ Sundays | 9am &amp; 10:45am
 	<div class="church"><h3>Grace Brethren</h3>
 	<p>562-595-6881<br />
 		<a target="_blank" class="button" href="http://www.gracelb.net">www.gracelb.net</a></p>
-	<p>36th &amp; Linden, Long Beach</p>
-	<p>Sundays | 9:30am</p>
+	<p>3601 Linden Ave, Long Beach</p>
+	<p>Sundays | 9:30am &amp; 11am</p>
 	</div>
 	<h2>Los Angeles</h2>
 	<div class="church"><h3>Basileia</h3>
 	<p>323-793-5732<br />
 		<a target="_blank" class="button" href="http://www.basileiacommunity.org">www.basileiacommunity.org</a></p>
 	<p>4903 Fountain Ave., Hollywood</p>
-	<p>Sundays | 10:30am<br />Thursdays | 7:30pm</p>
+	<p>Sundays | 10:30am</p>
 	</div>
 	<div class="church"><h3>Ecclesia</h3>
 	<p>323-464-8455<br />
@@ -176,19 +184,12 @@ Sundays | 9am &amp; 10:45am
 	<div class="church"><h3>Mosaic Downtown L.A.</h3>
 	<p>626-628-9640<br />
 		<a target="_blank" class="button" href="http://www.mosaic.org">www.mosaic.org</a></p>
-	<p>The Mayan Theatre<br />1038 South Hill Street, L.A.</p>
-	<p>Sundays | 7pm</p>
-	</div>
-	<div class="church"><h3>Mosaic West L.A.</h3>
-	<p>626-628-9640<br />
-		<a target="_blank" class="button" href="http://www.mosaic.org">www.mosaic.org</a></p>
-	<p>Beverly Hills High School<br />241 Moreno Dr.<br />Beverly Hills, Ca</p>
-	<p>Sundays | 5pm</p>
+	<p>7107 Hollywood Blvd, Hollywood</p>
+	<p>Sundays | 11:15am &amp;7pm</p>
 	</div>
 	<div class="church"><h3>New Song L.A.</h3>
 	<p>310-807-5795<br />
 		<a target="_blank" class="button" href="http://la.newsong.net">la.newsong.net</a></p>
-	<p>Animo Leadership Charter High School<br />1155 W. Arbor Vitae St., Inglewood</p>
 	<p>Sundays | 9:30am &amp; 11:30am</p>
 	</div>
 	<div class="church"><h3>Reality L.A.</h3>
@@ -198,10 +199,16 @@ Sundays | 9am &amp; 10:45am
 	<p>Sundays | 9am, 12pm, 5pm</p>
 	</div>
 	<h2>Pasadena</h2>
+	<div class="church"><h3>Fellowship Monrovia</h3>
+	<p>626-239-8109<br />
+		<a target="_blank" class="button" href="http://www.madeforfellowship.com">www.madeforfellowship.com</a></p>
+	<p>Monrovia Community Center<br />119 West Palm Avenue, Monrovia</p>
+	<p>Sundays | 9am &amp; 11am</p>
+	</div>
 	<div class="church"><h3>Mosaic Pasadena</h3>
-	<p>626-628-9640<br />
+	<p>323-391-2930<br />
 		<a target="_blank" class="button" href="http://www.mosaic.org">www.mosaic.org</a></p>
-	<p>William Carey University<br />1539 East Howard St., Pasadena</p>
+	<p>Mott Auditorium<br />1539 East Howard Street, Pasadena</p>
 	<p>Sundays | 10am</p>
 	</div>
 	<h2>Pomona</h2>
@@ -213,7 +220,7 @@ Sundays | 9am &amp; 10:45am
 	</div>
 	<h2>Redondo Beach</h2>
 	<div class="church"><h3>Mosaic South Bay</h3>
-	<p>626-628-9640<br />
+	<p>323-391-2930<br />
 		<a target="_blank" class="button" href="http://www.mosaic.org">www.mosaic.org</a></p>
 	<p>Knob Hill Community Center<br />320 Knob Hill, Redondo Beach</p>
 	<p>Sundays | 5pm</p>
