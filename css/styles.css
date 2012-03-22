@@ -221,6 +221,9 @@ h2 {
 	z-index: -1;
 	top: 0;
 	left: 0;
+	
+	background-size: 110%;
+	background-repeat: no-repeat;
 }
 
 .dark.background {
