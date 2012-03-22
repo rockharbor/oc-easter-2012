@@ -110,7 +110,7 @@ if (!empty($_GET['url'])) {
 			</div>
 		</div>
 		<div id="wrapper">
-			<section id="whathappens" class="darktext step" data-z="1000" data-background-opacity="1">
+			<section id="welcome" class="darktext step" data-z="1000" data-background-opacity="1">
 				<p>Welcome to oceaster.com. Click the <a class="next" href="#">colors</a> to continue.</p>
 			</section>
 			<section id="whathappens" class="darktext step" data-background-opacity="1" data-next-delay="12000">
