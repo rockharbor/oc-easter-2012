@@ -200,9 +200,12 @@
 		 * @return void
 		 */
 		hideChains: function() {
-			$('.chain').detach();
-			$('#gloom').detach();
-			$('#chains').detach();
+			$('.chain').removeClass('visible');
+			window.setTimeout(function() {
+				$('.chain').detach();
+				$('#gloom').detach();
+				$('#chains').detach();
+			}, 1100);
 		},
 		
 		/**

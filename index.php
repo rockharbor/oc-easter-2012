@@ -146,7 +146,7 @@ if (!empty($_GET['url'])) {
 			<section class="chain step visible" data-x="2100" data-z="-150" data-y="1800" data-exclude="true"><img src="/img/chain5.png" /></section>
 			<section class="chain step visible" data-x="2000" data-z="-250" data-y="2000" data-exclude="true"><img src="/img/chain2.png" /></section>
 			<section class="chain step visible" data-x="2000" data-z="-250" data-y="2000" data-exclude="true"><img src="/img/chain1.png" /></section>
-			<section id="live" class="step" data-x="2000" data-z="-900" data-y="2000" data-rotate-z="180" data-enter-trigger="hideChains">
+			<section id="live" class="step" data-x="2000" data-z="-900" data-y="2000" data-rotate-z="180" data-pre-enter-trigger="hideChains">
 				<p>Will we always <a href="#" class="next">live</a> with the chains?</p>
 			</section>
 			<section id="dawn" class="step" data-x="1000" data-z="-900" data-y="2000" data-rotate-z="180" data-enter-trigger="startCycle" data-exit-trigger="endCycle" data-cycle-speed="5000">
