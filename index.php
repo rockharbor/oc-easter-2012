@@ -102,6 +102,7 @@ if (!empty($_GET['url'])) {
 				<a href="kids">Kids</a>
 				<a href="what-to-expect">What To Expect</a>
 				<a href="stories">Stories</a>
+				<a href="gallery">Gallery</a>
 				<a href="why-we-celebrate">Why We Celebrate</a>
 				<a href="church-directory">Church Directory</a>
 				<!--[if lte IE 10]>
