@@ -20,6 +20,10 @@
 			<img src="/img/gallery/150x150_15.jpg" />
 			<img src="/img/gallery/150x150_16.jpg" />
 			<img src="/img/gallery/150x150_17.jpg" />
+			<img src="/img/gallery/150x150_18.jpg" />
+			<img src="/img/gallery/150x150_19.jpg" />
+			<img src="/img/gallery/150x150_20.jpg" />
+			<img src="/img/gallery/150x150_21.jpg" />
 		</div>
 		<div class="slideshow-large" style="display: none">
 			<div class="slideshow-large-image">
