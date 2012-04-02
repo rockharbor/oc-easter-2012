@@ -105,6 +105,7 @@ if (!empty($_GET['url'])) {
 				<a href="stories">Stories</a>
 				<a href="why-we-celebrate">Why We Celebrate</a>
 				<a href="church-directory">Church Directory</a>
+				<a href="give">Sponsor A Seat</a>
 				<!--[if lte IE 10]>
 				<p class="note">This site uses new technologies. For the full experience, please consider viewing it in a browser such as Chrome or Safari.</p>
 				<![endif]-->

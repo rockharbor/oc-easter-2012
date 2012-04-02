@@ -58,6 +58,7 @@ if (!isset($showLogo)) {
 			<a href="stories">Stories</a>
 			<a href="why-we-celebrate">Why We Celebrate</a>
 			<a href="church-directory">Church Directory</a>
+			<a href="give">Sponsor A Seat</a>
 		</nav>
 		<div id="wrapper">
 			<div id="content">
